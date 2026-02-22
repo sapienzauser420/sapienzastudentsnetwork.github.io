@@ -836,7 +836,7 @@
     },
     "1047197": {
         "name": "Data Management for Data Science",
-        "shortName": "Data Mgmt (DS)",
+        "shortName": "Data Mgmt",
         "abbr": "DMDS",
         "tgGroup": "https://t.me/+jmKdlKDdL3w0ZGVk"
     },
@@ -872,7 +872,7 @@
     },
     "10606725": {
         "name": "Optimization Methods for Data Science",
-        "shortName": "Opt. Meth. (DS)",
+        "shortName": "Opt. Meth.",
         "abbr": "OMDS",
         "tgGroup": "https://t.me/+6k34zI3afm8xNzVk"
     },
@@ -890,7 +890,7 @@
     },
     "10615930": {
         "name": "Stochastic Processes for Data Science",
-        "shortName": "Stoch. Proc. (DS)",
+        "shortName": "Stoch. Proc.",
         "abbr": "SPDS",
         "tgGroup": "https://t.me/+DZxL8-Bq85gzODg0"
     },
