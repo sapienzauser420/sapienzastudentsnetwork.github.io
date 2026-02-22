@@ -201,10 +201,10 @@
                     mobileCourseLink.textContent = course ?
                         course.abbr || course.name.substring(0, 2).toUpperCase() : courseCode;
 
-                    if (mobileCourseLink.textContent.length === 3) mobileCourseLink.style.fontSize = '0.8em';
-                    else if (mobileCourseLink.textContent.length === 4) mobileCourseLink.style.fontSize = '0.75em';
-                    else if (mobileCourseLink.textContent.length > 4) mobileCourseLink.style.fontSize = '0.7em';
-                    else mobileCourseLink.style.fontSize = '0.85em';
+                    //if (mobileCourseLink.textContent.length === 3) mobileCourseLink.style.fontSize = '0.8em';
+                    //else if (mobileCourseLink.textContent.length === 4) mobileCourseLink.style.fontSize = '0.75em';
+                    //else if (mobileCourseLink.textContent.length > 4) mobileCourseLink.style.fontSize = '0.7em';
+                    //else mobileCourseLink.style.fontSize = '0.85em';
 
                     if (alerts) {
                         desktopCourseLink.textContent += '*';
@@ -232,10 +232,10 @@
                         mobileClassroomDescElem.classList.add('font-italic');
                         mobileClassroomDescElem.textContent = "(" + classroomDesc + ")";
 
-                        if (mobileClassroomDescElem.textContent.length === 3) mobileClassroomDescElem.style.fontSize = '0.7em';
-                        else if (mobileClassroomDescElem.textContent.length === 4) mobileClassroomDescElem.style.fontSize = '0.65em';
-                        else if (mobileClassroomDescElem.textContent.length > 4) mobileClassroomDescElem.style.fontSize = '0.6em';
-                        else mobileClassroomDescElem.style.fontSize = '0.8em';
+                        //if (mobileClassroomDescElem.textContent.length === 3) mobileClassroomDescElem.style.fontSize = '0.7em';
+                        //else if (mobileClassroomDescElem.textContent.length === 4) mobileClassroomDescElem.style.fontSize = '0.65em';
+                        //else if (mobileClassroomDescElem.textContent.length > 4) mobileClassroomDescElem.style.fontSize = '0.6em';
+                        //else mobileClassroomDescElem.style.fontSize = '0.8em';
 
                         desktopTd.append(desktopClassroomDescElem);
                         mobileTd.append(mobileClassroomDescElem);
