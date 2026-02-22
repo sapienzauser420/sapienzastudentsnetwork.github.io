@@ -840,91 +840,109 @@
     "1047197": {
         "name": "Data Management for Data Science",
         "shortName": "Data Mgmt for DS",
-        "abbr": "DMDS"
+        "abbr": "DMDS",
+        "tgGroup": "https://t.me/+jmKdlKDdL3w0ZGVk"
     },
     "1047222": {
         "name": "Efficiency and Productivity Analysis",
         "shortName": "Eff. & Prod. Analysis",
-        "abbr": "EPA"
+        "abbr": "EPA",
+        "tgGroup": "https://t.me/+XB1Lc-13jfY1NTdk"
     },
     "10621172": {
         "name": "Fundamentals of Networking and Signal Processing",
         "shortName": "Net. & Signal Proc.",
-        "abbr": "FNSP"
+        "abbr": "FNSP",
+        "tgGroup": "https://t.me/+Pys3Pk9KerEwZjY0"
     },
     "10621178_1": {
         "name": "Fundamentals of Statistical Learning I",
         "shortName": "Fund. Stat. Learn. 1",
-        "abbr": "FSL1"
+        "abbr": "FSL1",
+        "tgGroup": "https://t.me/+Hd_ZKYHSH7M1ODNk"
     },
     "10621178_2": {
         "name": "Fundamentals of Statistical Learning II",
         "shortName": "Fund. Stat. Learn. 2",
-        "abbr": "FSL2"
+        "abbr": "FSL2",
+        "tgGroup": "https://t.me/+Hd_ZKYHSH7M1ODNk"
     },
     "10621173": {
         "name": "Natural Language Processing and Text Mining",
         "shortName": "NLP & Text Mining",
-        "abbr": "NLPT"
+        "abbr": "NLPT",
+        "tgGroup": "https://t.me/+dPESpi1ktho3ODdk"
     },
     "10606725": {
         "name": "Optimization Methods for Data Science",
         "shortName": "Opt. Methods for DS",
-        "abbr": "OMDS"
+        "abbr": "OMDS",
+        "tgGroup": "https://t.me/+6k34zI3afm8xNzVk"
     },
     "1047209": {
         "name": "Quantitative Models for Economic Analysis and Management",
         "shortName": "Quantitative Models",
-        "abbr": "QME"
+        "abbr": "QME",
+        "tgGroup": "https://t.me/+_M2qDZkjPC5hMjVk"
     },
     "10621099": {
         "name": "Statistical Machine Learning",
         "shortName": "Statistical ML",
-        "abbr": "SML"
+        "abbr": "SML",
+        "tgGroup": "https://t.me/+hPFr4Z0_aIo2MTk8"
     },
     "10615930": {
         "name": "Stochastic Processes for Data Science",
         "shortName": "Stochastic Proc. for DS",
-        "abbr": "SPDS"
+        "abbr": "SPDS",
+        "tgGroup": "https://t.me/+DZxL8-Bq85gzODg0"
     },
     "1047218": {
         "name": "Earth Observation Data Analysis",
         "shortName": "Earth Obs. Data Analysis",
-        "abbr": "EODA"
+        "abbr": "EODA",
+        "tgGroup": "https://t.me/+1eMiQKNSo_UzYTU0"
     },
     "1047212": {
         "name": "Economics of Network Industries",
         "shortName": "Economics of Net. Ind.",
-        "abbr": "ENI"
+        "abbr": "ENI",
+        "tgGroup": "https://t.me/+JkzqXvC9v6ZhODBk"
     },
     "10616533": {
         "name": "Graph Mining and Applications",
         "shortName": "Graph Mining",
-        "abbr": "GMA"
+        "abbr": "GMA",
+        "tgGroup": "https://t.me/+70dPDHao19k1ZGQ8"
     },
     "1047215": {
         "name": "Intellectual Property Competition and Data Protection Law",
         "shortName": "IPC & Data Prot. Law",
-        "abbr": "IPDP"
+        "abbr": "IPDP",
+        "tgGroup": "https://t.me/+fC4XwUA8BbBiM2Nk"
     },
     "1056023": {
         "name": "Smart Environments",
         "shortName": "Smart Environments",
-        "abbr": "SENV"
+        "abbr": "SENV",
+        "tgGroup": "https://t.me/+_mmxI3ZDxPdlZmU0"
     },
     "10600197": {
         "name": "Data Driven Economics",
         "shortName": "Data Driven Econ.",
-        "abbr": "DDE"
+        "abbr": "DDE",
+        "tgGroup": "https://t.me/+0AkHMXIUABw2NTQ0"
     },
     "10589730": {
         "name": "Geomatics and Geoinformation",
         "shortName": "Geomatics & Geoinfo",
-        "abbr": "G&G"
+        "abbr": "G&G",
+        "tgGroup": "https://t.me/+oqGo4DdkLG83ODM0"
     },
     "10616532": {
         "name": "Economics and Computation",
         "shortName": "Economics & Comp.",
-        "abbr": "E&C"
+        "abbr": "E&C",
+        "tgGroup": "https://t.me/+lJ3cIF3wDMs2N2Q8"
     }
 }
