@@ -1,0 +1,33 @@
+---
+title: "Per-year"
+aliases: ["/33519/courses/timetables/per-year"]
+weight: 1
+bookCollapseSection: true
+layout: 'timetables'
+type: 'page'
+timetables:
+    - title: "First Year"
+      courses:
+        - '1047205'    # CLOUD COMPUTING
+        - '10600197'   # DATA DRIVEN ECONOMICS
+        - '1047197'    # DATA MANAGEMENT FOR DATA SCIENCE
+        - '10621172'   # FUNDAMENTALS OF NETWORKING AND SIGNAL PROCESSING
+        - '10621178_2' # FUNDAMENTALS OF STATISTICAL LEARNING II
+        - '10621173'   # NATURAL LANGUAGE PROCESSING AND TEXT MINING
+        - '10606725'   # OPTIMIZATION METHODS FOR DATA SCIENCE
+        - '1047209'    # QUANTITATIVE MODELS FOR ECONOMIC ANALYSIS AND MANAGEMENT
+        - '10621099'   # STATISTICAL MACHINE LEARNING
+        - '10615930'   # STOCHASTIC PROCESSES FOR DATA SCIENCE
+    - title: "Second Year"
+      courses:
+        - '1047218'  # EARTH OBSERVATION DATA ANALYSIS
+        - '10616532' # ECONOMICS AND COMPUTATION
+        - '1047212'  # ECONOMICS OF NETWORK INDUSTRIES
+        - '1047222'  # EFFICIENCY AND PRODUCTIVITY ANALYSIS
+        - '10589730' # GEOMATICS AND GEOINFORMATION
+        - '10616533' # GRAPH MINING AND APPLICATIONS
+        - '1047215'  # INTELLECTUAL PROPERTY COMPETITION AND DATA PROTECTION LAW
+        - '1056023'  # SMART ENVIRONMENTS
+---
+
+Check out the lesson timetables for the master's degree in Data Science

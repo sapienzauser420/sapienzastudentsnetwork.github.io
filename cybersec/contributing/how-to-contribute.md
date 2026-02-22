@@ -1,6 +1,6 @@
 ---
 title: "How to contribute"
-aliases: ['/contributing', '/29389/contributing/how-to-contribute']
+aliases: ['/29389/contributing/how-to-contribute']
 bookToC: true
 weight: 1
 ---

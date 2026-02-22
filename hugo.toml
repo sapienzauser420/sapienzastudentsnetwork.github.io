@@ -27,12 +27,22 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         [languages.acsai.params]
             contentDir = 'acsai'
 
+    [languages.it]
+        contentDir = 'it'
+        disabled = false
+        languageName = 'Informatica'
+        title = 'Informatica'
+        weight = 2
+
+        [languages.it.params]
+            contentDir = 'it'
+
     [languages.compsci]
         contentDir = 'compsci'
         disabled = false
         languageName = 'Computer Science'
         title = 'Computer Science'
-        weight = 2
+        weight = 3
 
         [languages.compsci.params]
             contentDir = 'compsci'
@@ -42,27 +52,27 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         disabled = false
         languageName = 'Cybersecurity'
         title = 'Cybersecurity'
-        weight = 3
+        weight = 4
 
         [languages.cybersec.params]
         contentDir = 'cybersec'
 
-    [languages.it]
-        contentDir = 'it'
+    [languages.datasci]
+        contentDir = 'datasci'
         disabled = false
-        languageName = 'Informatica'
-        title = 'Informatica'
-        weight = 4
+        languageName = 'Data Science'
+        title = 'Data Science'
+        weight = 5
 
-        [languages.it.params]
-            contentDir = 'it'
+        [languages.datasci.params]
+        contentDir = 'datasci'
 
     [languages.33525]
         contentDir = '33525'
         disabled = false
         languageName = 'Filosofia'
         title = 'Filosofia'
-        weight = 5
+        weight = 6
 
         [languages.33525.params]
             contentDir = '33525'
@@ -72,7 +82,7 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         disabled = false
         languageName = 'Filosofia e IA'
         title = 'Filosofia e IA'
-        weight = 6
+        weight = 7
 
         [languages.33526.params]
             contentDir = '33526'
@@ -82,14 +92,14 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         disabled = true
         languageName = 'Developers Wiki'
         title = 'Developers Wiki'
-        weight = 7
+        weight = 8
 
     [languages.rooms]
         contentDir = 'rooms'
         disabled = false
         languageName = 'Rooms'
         title = 'Rooms'
-        weight = 8
+        weight = 9
 
 [markup]
     [markup.goldmark]

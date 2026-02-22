@@ -7,7 +7,7 @@ Puoi sostenere un esame quante volte vuoi, e non c'è alcuna penalità per quest
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Q&A: Quando posso sostenere un esame?**
 
-Supponi di voler sostenere l'esame di Calcolo Differenziale. Sei una matricola dell'A.A. 2024/2025. Il professore comunicherà due date in cui potrai sostenere l'esame, (ad esempio il 10/01/2025 e il 03/02/2025). Puoi sostenere l'esame nella prima e/o nella seconda data.
+Supponi di voler sostenere l'esame di Metodi Matematici per l'Informatica. Sei una matricola dell'A.A. 2025/2026. Il professore comunicherà due date in cui potrai sostenere l'esame, (ad esempio il 10/01/2026 e il 03/02/2026). Puoi sostenere l'esame nella prima e/o nella seconda data.
 
 Supponi che, per qualsiasi motivo, tu non possa sostenere l'esame nella prima sessione d'esame (quindi in quella invernale): potrai sostenere quell'esame in **qualsiasi altra** sessione d'esame a cui ti è permesso partecipare **fino a quando non supererai l'esame**.
 {{% /hint %}}
