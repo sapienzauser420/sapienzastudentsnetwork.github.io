@@ -1,7 +1,7 @@
 {
     "10621549_1": {
-        "name": "Analisi Matematica 1",
-        "shortName": "Analisi 1",
+        "name": "Analisi Matematica (I Modulo)",
+        "shortName": "Analisi",
         "abbr": "AM1",
         "tgGroup": "https://t.me/+Cw_63BoRvE03YmM0",
         "cfu": 6,
@@ -48,8 +48,8 @@
         "department": "INF"
     },
     "10621549_2": {
-        "name": "Analisi Matematica 2",
-        "shortName": "Analisi 2",
+        "name": "Analisi Matematica (II Modulo)",
+        "shortName": "Analisi",
         "abbr": "AM2",
         "tgGroup": "https://t.me/+lnnFbmFQNNBjNGRk",
         "cfu": 6,
@@ -120,16 +120,16 @@
         "department": "MAT"
     },
     "1015887_1": {
-        "name": "Basi di Dati 1",
-        "shortName": "Basi di Dati 1",
+        "name": "Basi di Dati (I Modulo)",
+        "shortName": "Basi di Dati",
         "abbr": "BD1",
         "tgGroup": "https://t.me/+eRVplF3Va3dlNDJk",
         "cfu": 6,
         "department": "INF"
     },
     "1015887_2": {
-        "name": "Basi di Dati 2",
-        "shortName": "Basi di Dati 2",
+        "name": "Basi di Dati (II Modulo)",
+        "shortName": "Basi di Dati",
         "abbr": "BD2",
         "tgGroup": "https://t.me/+xTuUWRfneSwwMjBk",
         "cfu": 6,
@@ -144,16 +144,16 @@
         "department": "MAT"
     },
     "1020422_1": {
-        "name": "Sistemi Operativi 1",
-        "shortName": "Sist. Op. 1",
+        "name": "Sistemi Operativi (I Modulo)",
+        "shortName": "Sist. Op.",
         "abbr": "SO1",
         "tgGroup": "https://t.me/+oF0ppISY8EFmOTZk",
         "cfu": 6,
         "department": "INF"
     },
     "1020422_2": {
-        "name": "Sistemi Operativi 2",
-        "shortName": "Sist. Op. 2",
+        "name": "Sistemi Operativi (II Modulo)",
+        "shortName": "Sist. Op.",
         "abbr": "SO2",
         "tgGroup": "https://t.me/+PzNOzkmwVio4Nzg0",
         "cfu": 6,
@@ -334,13 +334,13 @@
     },
     "10595546_1": {
         "name": "Computer Architecture (Unit 1)",
-        "shortName": "Comp. Arch. U1",
+        "shortName": "Comp. Arch.",
         "abbr": "CAU1",
         "cfu": 12
     },
     "10595546_2": {
         "name": "Computer Architecture (Unit 2)",
-        "shortName": "Comp. Arch. U2",
+        "shortName": "Comp. Arch.",
         "abbr": "CAU2",
         "cfu": 12
     },
@@ -364,7 +364,7 @@
     },
     "1049269": {
         "name": "Algorithms",
-        "shortName": "Algo",
+        "shortName": "Algorithms",
         "abbr": "ALGO",
         "cfu": 6
     },
@@ -376,7 +376,7 @@
     },
     "10600241": {
         "name": "Programming 2",
-        "shortName": "Prog. 2",
+        "shortName": "Programming",
         "abbr": "PR2",
         "cfu": 6
     },
@@ -388,7 +388,7 @@
     },
     "10595617_1": {
         "name": "Data Management and Analysis (Unit 1)",
-        "shortName": "Data U1",
+        "shortName": "DMA U1",
         "abbr": "DMA1",
         "cfu": 6
     },
@@ -853,14 +853,14 @@
         "tgGroup": "https://t.me/+Pys3Pk9KerEwZjY0"
     },
     "10621178_1": {
-        "name": "Fundamentals of Statistical Learning I",
-        "shortName": "Fund. Stat. Learn. 1",
+        "name": "Fundamentals of Statistical Learning (Unit 1)",
+        "shortName": "Fund. Stat. Learn.",
         "abbr": "FSL",
         "tgGroup": "https://t.me/+Hd_ZKYHSH7M1ODNk"
     },
     "10621178_2": {
-        "name": "Fundamentals of Statistical Learning II",
-        "shortName": "Fund. Stat. Learn. 2",
+        "name": "Fundamentals of Statistical Learning (Unit 2)",
+        "shortName": "Fund. Stat. Learn.",
         "abbr": "FSL",
         "tgGroup": "https://t.me/+Hd_ZKYHSH7M1ODNk"
     },
