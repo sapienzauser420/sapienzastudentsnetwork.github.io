@@ -382,3 +382,22 @@ a {
         padding: 6px 8px;
     }
 }
+
+/* Timetable desktop and mobile visibility */
+@media screen and (min-width: 768px) {
+    table tbody.mobile {
+        display: none !important;
+    }
+    table tbody.desktop {
+        display: table-row-group;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    table tbody.desktop {
+        display: none !important;
+    }
+    table tbody.mobile {
+        display: table-row-group;
+    }
+}

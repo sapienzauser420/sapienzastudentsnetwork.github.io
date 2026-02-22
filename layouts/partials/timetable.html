@@ -159,11 +159,14 @@
             timeTd.classList.add('timetableTableCell', 'font-light', 'italic');
             timeTd.innerHTML = `${time} - ${time + 1}`;
 
+            mobileTimeTd = timeTd.cloneNode(true)
+            mobileTimeTd.innerHTML = `${time}-${time + 1}`;
+
             const desktopTr = document.createElement('tr');
             desktopTr.append(timeTd);
 
             const mobileTr = document.createElement('tr');
-            mobileTr.append(timeTd.cloneNode(true));
+            mobileTr.append(mobileTimeTd);
 
             for (const day of DAYS) {
                 if (!schedule[day])
@@ -182,7 +185,7 @@
                 for (const { courseCode, alerts, cancelled, classroomDesc } of courses) {
                     const course = COURSES[courseCode];
 
-                    desktopCourseLink = document.createElement('a');
+                    const desktopCourseLink = document.createElement('a');
                     if (!subjectsColors[courseCode])
                         subjectsColors[courseCode] = COLORS[nextColorIndex++ % COLORS.length];
 
@@ -194,9 +197,14 @@
                     desktopCourseLink.textContent = course ?
                         course.shortName || course.name : courseCode;
 
-                    mobileCourseLink = desktopCourseLink.cloneNode(true);
+                    const mobileCourseLink = desktopCourseLink.cloneNode(true);
                     mobileCourseLink.textContent = course ?
                         course.abbr || course.name.substring(0, 2).toUpperCase() : courseCode;
+
+                    if (mobileCourseLink.textContent.length === 3) mobileCourseLink.style.fontSize = '0.8em';
+                    else if (mobileCourseLink.textContent.length === 4) mobileCourseLink.style.fontSize = '0.75em';
+                    else if (mobileCourseLink.textContent.length > 4) mobileCourseLink.style.fontSize = '0.7em';
+                    else mobileCourseLink.style.fontSize = '0.85em';
 
                     if (alerts) {
                         desktopCourseLink.textContent += '*';
@@ -216,12 +224,21 @@
                     mobileTd.append(mobileCourseLink);
 
                     if (classroomDesc != null) {
-                        const classroomDescElem = document.createElement('div');
-                        classroomDescElem.classList.add('font-italic');
-                        classroomDescElem.textContent = "(" + classroomDesc + ")";
+                        const desktopClassroomDescElem = document.createElement('div');
+                        desktopClassroomDescElem.classList.add('font-italic');
+                        desktopClassroomDescElem.textContent = "(" + classroomDesc + ")";
 
-                        desktopTd.append(classroomDescElem);
-                        mobileTd.append(classroomDescElem);
+                        const mobileClassroomDescElem = document.createElement('div');
+                        mobileClassroomDescElem.classList.add('font-italic');
+                        mobileClassroomDescElem.textContent = "(" + classroomDesc + ")";
+
+                        if (mobileClassroomDescElem.textContent.length === 3) mobileClassroomDescElem.style.fontSize = '0.7em';
+                        else if (mobileClassroomDescElem.textContent.length === 4) mobileClassroomDescElem.style.fontSize = '0.65em';
+                        else if (mobileClassroomDescElem.textContent.length > 4) mobileClassroomDescElem.style.fontSize = '0.6em';
+                        else mobileClassroomDescElem.style.fontSize = '0.8em';
+
+                        desktopTd.append(desktopClassroomDescElem);
+                        mobileTd.append(mobileClassroomDescElem);
                     }
                 }
 

@@ -57,7 +57,7 @@
     },
     "10621298": {
         "name": "Algebra Lineare e Geometria",
-        "shortName": "Algebra e Geom.",
+        "shortName": "Alg. Lin. Geom.",
         "abbr": "ALG",
         "tgGroup": "https://t.me/+798mXLThj_JmYTBk",
         "cfu": 9,
@@ -65,7 +65,7 @@
     },
     "10620599": {
         "name": "Algoritmi 1",
-        "shortName": "Algoritmi 1",
+        "shortName": "Algo 1",
         "abbr": "ALG1",
         "tgGroup": "https://t.me/+wJY633Yc1pUxMjk0",
         "cfu": 6,
@@ -137,7 +137,7 @@
     },
     "1020421": {
         "name": "Calcolo delle Probabilit\u00e0",
-        "shortName": "Probabilit\u00e0",
+        "shortName": "Calc. Prob.",
         "abbr": "CDP",
         "tgGroup": "https://t.me/+Dq6lPczRbJtmNmVk",
         "cfu": 9,
@@ -185,7 +185,7 @@
     },
     "1031337": {
         "name": "Biologia Computazionale",
-        "shortName": "Biol. Comput.",
+        "shortName": "Biol. Comp.",
         "abbr": "BIO",
         "tgGroup": "https://t.me/+cBediJPv7GxmZTc8",
         "cfu": 6,
@@ -265,7 +265,7 @@
     },
     "1022265": {
         "name": "Modelli e Ottimizzazione",
-        "shortName": "Modelli e Ottimiz.",
+        "shortName": "Mod. e Ott.",
         "abbr": "OTT",
         "tgGroup": "https://t.me/+nx7dseifrswzNGU6",
         "cfu": 6,
@@ -273,7 +273,7 @@
     },
     "10596283": {
         "name": "Organizzazione e Gestione per lo Start-Up Aziendale",
-        "shortName": "Org. e Gest. Az.",
+        "shortName": "Org. Gest. Az.",
         "abbr": "OGA",
         "tgGroup": "https://t.me/+TW9IFCi061Q0Nzk8",
         "cfu": 6,
@@ -308,30 +308,27 @@
     },
     "10589652": {
         "name": "Tecniche di Programmazione Funzionale e Imperativa",
-        "shortName": "Prog. Funz. e Imp.",
+        "shortName": "Tecn. Prog. Funz. Imp.",
         "abbr": "TPFI",
         "tgGroup": "https://t.me/+X7XCdT3tfA83OTVk",
         "cfu": 6
     },
     "10600494": {
         "name": "Verifica e Validazione di Sistemi Intelligenti",
-        "shortName": "Sist. Intelligenti",
+        "shortName": "Ver. Sist. Int.",
         "abbr": "VVSI",
         "tgGroup": "https://t.me/+D1TVbwQqf8kxZjRk",
         "cfu": 6
     },
-
-
-
     "10595099_1": {
         "name": "Calculus (Unit 1)",
-        "shortName": "Calculus U1",
+        "shortName": "Calc. U1",
         "abbr": "CU1",
         "cfu": 12
     },
     "10595099_2": {
         "name": "Calculus (Unit 2)",
-        "shortName": "Calculus U2",
+        "shortName": "Calc. U2",
         "abbr": "CU2",
         "cfu": 12
     },
@@ -355,19 +352,19 @@
     },
     "10595102_1": {
         "name": "Programming (Unit 1)",
-        "shortName": "Programming U1",
+        "shortName": "Prog. U1",
         "abbr": "PRU1",
         "cfu": 12
     },
     "10595102_2": {
         "name": "Programming (Unit 2)",
-        "shortName": "Programming U2",
+        "shortName": "Prog. U2",
         "abbr": "PRU2",
         "cfu": 12
     },
     "1049269": {
         "name": "Algorithms",
-        "shortName": "Algorithms",
+        "shortName": "Algo",
         "abbr": "ALGO",
         "cfu": 6
     },
@@ -379,13 +376,13 @@
     },
     "10600241": {
         "name": "Programming 2",
-        "shortName": "Programming 2",
+        "shortName": "Prog. 2",
         "abbr": "PR2",
         "cfu": 6
     },
     "10595529": {
         "name": "Calculus 2",
-        "shortName": "Calculus 2",
+        "shortName": "Calc. 2",
         "abbr": "CAL2",
         "cfu": 6
     },
@@ -397,13 +394,13 @@
     },
     "10595617_2": {
         "name": "Data Management and Analysis (Unit 2)",
-        "shortName": "Data U2",
+        "shortName": "DMA U2",
         "abbr": "DMA2",
         "cfu": 6
     },
     "10595525": {
         "name": "Probability",
-        "shortName": "Probability",
+        "shortName": "Prob.",
         "abbr": "PRB",
         "cfu": 6
     },
@@ -421,13 +418,13 @@
     },
     "10595618_1": {
         "name": "Artificial Intelligence and Machine Learning (Unit 1)",
-        "shortName": "AI (AI&ML - U1)",
+        "shortName": "AI & ML (AI)",
         "abbr": "AI",
         "cfu": 6
     },
     "10595618_2": {
         "name": "Artificial Intelligence and Machine Learning (Unit 2)",
-        "shortName": "ML (AI&ML - U2)",
+        "shortName": "AI & ML (ML)",
         "abbr": "ML",
         "cfu": 6
     },
@@ -472,21 +469,21 @@
     },
     "10595535": {
         "name": "Human Computer Interaction",
-        "shortName": "Human Comp. Int.",
+        "shortName": "Hum. Comp. Int.",
         "abbr": "HCI",
         "tgGroup": "https://t.me/+vKK_-l_aqoJjMmQ0",
         "cfu": 6
     },
     "10595533": {
         "name": "Optimization",
-        "shortName": "Optimization",
+        "shortName": "Optimiz.",
         "abbr": "OPT",
         "tgGroup": "https://t.me/+nx7dseifrswzNGU6",
         "cfu": 6
     },
     "10595536": {
         "name": "Business and Computer Science",
-        "shortName": "Business & CS",
+        "shortName": "Bus. & CS",
         "abbr": "BCS",
         "tgGroup": "https://t.me/+Z8YI05oono0yNjFk",
         "cfu": 6
@@ -500,7 +497,7 @@
     },
     "10596281": {
         "name": "Autonomous Networking",
-        "shortName": "Autonomous Net",
+        "shortName": "Autonomous Net.",
         "abbr": "ANET",
         "tgGroup": "https://t.me/+S2AJbgMrd8LhbABF"
     },
@@ -572,7 +569,7 @@
     },
     "1047616": {
         "name": "Computational Complexity",
-        "shortName": "Comput. Complexity",
+        "shortName": "Comput. Compl.",
         "abbr": "COMP",
         "tgGroup": "https://t.me/+cFO5rxhe0ak3YjFk"
     },
@@ -584,7 +581,7 @@
     },
     "1047640": {
         "name": "Network Algorithms",
-        "shortName": "Network Algorithms",
+        "shortName": "Network Algo",
         "abbr": "NA",
         "tgGroup": "https://t.me/+Xdg3QAARmlRjODlk"
     },
@@ -596,83 +593,83 @@
     },
     "10607006": {
         "name": "Formal Methods for AI-based Systems Engineering",
-        "shortName": "AI-based Sys. Eng.",
+        "shortName": "AI Sys. Eng.",
         "abbr": "FMAI"
     },
     "1047614": {
         "name": "Advanced Software Engineering",
-        "shortName": "Adv. Software Eng.",
+        "shortName": "Adv. SE",
         "abbr": "ASE",
         "tgGroup": "https://t.me/+SRnmNKaAM3kwYzk8"
     },
     "1047205": {
         "name": "Cloud Computing",
-        "shortName": "Cloud Computing",
+        "shortName": "Cloud Comp.",
         "abbr": "CC",
         "tgGroup": "https://t.me/+TFOpJk7wLJMUSZaH"
     },
     "10593236": {
         "name": "Deep Learning and Applied Artificial Intelligence",
-        "shortName": "Deep Learn. & AI",
+        "shortName": "DL & AI",
         "abbr": "DLAI",
         "tgGroup": "https://t.me/+S914sAzRVG2weEM4"
     },
     "1047630": {
         "name": "Human Computer Interaction on the Web",
-        "shortName": "HCI on the Web",
+        "shortName": "HCI Web",
         "abbr": "HCIW",
         "tgGroup": "https://t.me/+B_S4NnD6VPE1OGNk"
     },
     "1047634": {
         "name": "Internet of Things",
-        "shortName": "Internet of Things",
+        "shortName": "IOT",
         "abbr": "IOT",
         "tgGroup": "https://t.me/+-iMx8soyQyNmYTk8"
     },
     "1047636": {
         "name": "Mathematical Logic for Computer Science",
-        "shortName": "Math. Logic for CS",
+        "shortName": "Math. Logic",
         "abbr": "MATH",
         "tgGroup": "https://t.me/+o5P3c6dDULM2YmE0"
     },
     "10620665": {
         "name": "Logics and Reasoning",
-        "shortName": "Logics & Reasoning",
+        "shortName": "Logics & Reason.",
         "abbr": "LR",
         "tgGroup": "https://t.me/+o5P3c6dDULM2YmE0"
     },
     "1038141": {
         "name": "Natural Language Processing",
-        "shortName": "Natural Lang. Proc.",
+        "shortName": "NLP",
         "abbr": "NLP",
         "tgGroup": "https://t.me/+Rijud7jizOpiYzc8"
     },
     "10589555": {
         "name": "Practical Network Defense",
-        "shortName": "Practical Network Def.",
+        "shortName": "Pr. Net. Def.",
         "abbr": "PND",
         "tgGroup": "https://t.me/+RDOCbqa50vZAkWjN"
     },
     "1047613": {
         "name": "Advanced Algorithms",
-        "shortName": "Adv. Algorithms",
+        "shortName": "Adv. Algo",
         "abbr": "AALG",
         "tgGroup": "https://t.me/+Xb9-VqXQMXk3MGQ0"
     },
     "10612318": {
         "name": "Advanced Architectures",
-        "shortName": "Adv. Architectures",
+        "shortName": "Adv. Arch.",
         "abbr": "AARC"
     },
     "1047619": {
         "name": "Concurrent Systems",
-        "shortName": "Concurrent Systems",
+        "shortName": "Conc. Sys.",
         "abbr": "CS",
         "tgGroup": "https://t.me/+nDsSnNQMF8kxMjI0"
     },
     "1047623": {
         "name": "Data and Network Security",
-        "shortName": "Data & Net. Sec.",
+        "shortName": "Data Net. Sec.",
         "abbr": "DNS",
         "tgGroup": "https://t.me/+Te_HbNnd3U2w6SaU"
     },
@@ -684,7 +681,7 @@
     },
     "1047639": {
         "name": "Multimodal Interaction",
-        "shortName": "Multimodal Int.",
+        "shortName": "Multimod. Int.",
         "abbr": "MI",
         "tgGroup": "https://t.me/+RSYya0P9YzDiLP27"
     },
@@ -714,18 +711,18 @@
     },
     "1047626": {
         "name": "Formal Methods in Software Development",
-        "shortName": "Software Development",
+        "shortName": "Software Dev.",
         "abbr": "FMSD",
         "tgGroup": "https://t.me/+RarJRCwFq6BhMTQ0"
     },
     "AAF1246": {
         "name": "Attività Formativa Complementare",
-        "shortName": "Attività Form. Compl.",
+        "shortName": "Att. Form. Compl.",
         "abbr": "AFC"
     },
     "1054960": {
         "name": "Computer Systems and Programming",
-        "shortName": "Computer Systems & Prog.",
+        "shortName": "Comp. Sys. & Prog.",
         "abbr": "CSP",
         "tgGroup": "https://t.me/+WeMUQBv-PJsxODY8"
     },
@@ -755,7 +752,7 @@
     },
     "1044415": {
         "name": "Mobile Applications and Cloud Computing",
-        "shortName": "Mobile Apps & Cloud Comp.",
+        "shortName": "Mob. Apps & Cloud Comp.",
         "abbr": "MAC",
         "tgGroup": "https://t.me/joinchat/CfmfQ0wDb1i3PsVS_itHpg"
     },
@@ -767,7 +764,7 @@
     },
     "1055061": {
         "name": "Security Governance",
-        "shortName": "Security Governance",
+        "shortName": "Security Gov.",
         "abbr": "GOV",
         "tgGroup": "https://t.me/joinchat/CfmfQ0lV3bjfytnH47gEaw"
     },
@@ -779,43 +776,43 @@
     },
     "1055682": {
         "name": "Ethical Hacking",
-        "shortName": "Ethical Hacking",
+        "shortName": "Eth. Hack.",
         "abbr": "ETH",
         "tgGroup": "https://t.me/joinchat/CfmfQ1Hmwtu6I31Y90ArnA"
     },
     "1055047": {
         "name": "Economics and Technology and Management",
-        "shortName": "Economics & Tech. & Man.",
+        "shortName": "Econ. Tech. Mgmt.",
         "abbr": "ETM",
         "tgGroup": "https://t.me/+U6AILrPjylWeY523"
     },
     "10600449": {
         "name": "Advanced Information Systems Security and Blockchain",
-        "shortName": "AISS & Blockchain",
+        "shortName": "AISS & BC",
         "abbr": "AISB",
         "tgGroup": "https://t.me/+elPZF0tnJ-xkYzJk"
     },
     "1054963": {
         "name": "Systems and Control Methods for Cyber-physical Security",
-        "shortName": "Cyber-physical Security",
+        "shortName": "Cyber-phy Security",
         "abbr": "CPHY",
         "tgGroup": "https://t.me/joinchat/CfmfQxqqqp9koNg-RXnAPg"
     },
     "1054962": {
         "name": "Secure Computation",
-        "shortName": "Secure Computation",
+        "shortName": "Secure Comp.",
         "abbr": "SCMP",
         "tgGroup": "https://t.me/+5HJXedepINZiMDI0"
     },
     "AAF1803": {
         "name": "Cyber Security Seminars",
-        "shortName": "Cyber Sec. Seminars",
+        "shortName": "Cyber Sec. Sem.",
         "abbr": "CSEM",
         "tgGroup": "https://t.me/joinchat/CfmfQxXteHLLf1DR6K_SXg"
     },
     "10620566": {
         "name": "High-Performance Computing",
-        "shortName": "High-Perf. Computing",
+        "shortName": "High-Perf. Comp.",
         "abbr": "HPC",
         "tgGroup": "https://t.me/+-ECRVNH9w9ZjN2Rk"
     },
@@ -833,13 +830,13 @@
     },
     "10616549": {
         "name": "Advanced Cryptography",
-        "shortName": "Adv. Cryptography",
+        "shortName": "Adv. Crypto",
         "abbr": "AC",
         "tgGroup": "https://t.me/+vSa1AG8hmGs2YmJk"
     },
     "1047197": {
         "name": "Data Management for Data Science",
-        "shortName": "Data Mgmt for DS",
+        "shortName": "Data Mgmt (DS)",
         "abbr": "DMDS",
         "tgGroup": "https://t.me/+jmKdlKDdL3w0ZGVk"
     },
@@ -851,49 +848,49 @@
     },
     "10621172": {
         "name": "Fundamentals of Networking and Signal Processing",
-        "shortName": "Net. & Signal Proc.",
-        "abbr": "FNSP",
+        "shortName": "Net. & Sign. Proc.",
+        "abbr": "FNS",
         "tgGroup": "https://t.me/+Pys3Pk9KerEwZjY0"
     },
     "10621178_1": {
         "name": "Fundamentals of Statistical Learning I",
         "shortName": "Fund. Stat. Learn. 1",
-        "abbr": "FSL1",
+        "abbr": "FSL",
         "tgGroup": "https://t.me/+Hd_ZKYHSH7M1ODNk"
     },
     "10621178_2": {
         "name": "Fundamentals of Statistical Learning II",
         "shortName": "Fund. Stat. Learn. 2",
-        "abbr": "FSL2",
+        "abbr": "FSL",
         "tgGroup": "https://t.me/+Hd_ZKYHSH7M1ODNk"
     },
     "10621173": {
         "name": "Natural Language Processing and Text Mining",
         "shortName": "NLP & Text Mining",
-        "abbr": "NLPT",
+        "abbr": "NTM",
         "tgGroup": "https://t.me/+dPESpi1ktho3ODdk"
     },
     "10606725": {
         "name": "Optimization Methods for Data Science",
-        "shortName": "Opt. Methods for DS",
+        "shortName": "Opt. Meth. (DS)",
         "abbr": "OMDS",
         "tgGroup": "https://t.me/+6k34zI3afm8xNzVk"
     },
     "1047209": {
         "name": "Quantitative Models for Economic Analysis and Management",
-        "shortName": "Quantitative Models",
+        "shortName": "Quant. Models",
         "abbr": "QME",
         "tgGroup": "https://t.me/+_M2qDZkjPC5hMjVk"
     },
     "10621099": {
         "name": "Statistical Machine Learning",
-        "shortName": "Statistical ML",
+        "shortName": "Stat. ML",
         "abbr": "SML",
         "tgGroup": "https://t.me/+hPFr4Z0_aIo2MTk8"
     },
     "10615930": {
         "name": "Stochastic Processes for Data Science",
-        "shortName": "Stochastic Proc. for DS",
+        "shortName": "Stochastic Proc. (DS)",
         "abbr": "SPDS",
         "tgGroup": "https://t.me/+DZxL8-Bq85gzODg0"
     },
@@ -905,7 +902,7 @@
     },
     "1047212": {
         "name": "Economics of Network Industries",
-        "shortName": "Economics of Net. Ind.",
+        "shortName": "Econ. Net. Ind.",
         "abbr": "ENI",
         "tgGroup": "https://t.me/+JkzqXvC9v6ZhODBk"
     },
@@ -917,31 +914,31 @@
     },
     "1047215": {
         "name": "Intellectual Property Competition and Data Protection Law",
-        "shortName": "IPC & Data Prot. Law",
+        "shortName": "IPC & DPL",
         "abbr": "IPDP",
         "tgGroup": "https://t.me/+fC4XwUA8BbBiM2Nk"
     },
     "1056023": {
         "name": "Smart Environments",
-        "shortName": "Smart Environments",
+        "shortName": "Smart Envs.",
         "abbr": "SENV",
         "tgGroup": "https://t.me/+_mmxI3ZDxPdlZmU0"
     },
     "10600197": {
         "name": "Data Driven Economics",
-        "shortName": "Data Driven Econ.",
+        "shortName": "Data Driv. Econ.",
         "abbr": "DDE",
         "tgGroup": "https://t.me/+0AkHMXIUABw2NTQ0"
     },
     "10589730": {
         "name": "Geomatics and Geoinformation",
-        "shortName": "Geomatics & Geoinfo",
+        "shortName": "Geom. & Geoinfo",
         "abbr": "G&G",
         "tgGroup": "https://t.me/+oqGo4DdkLG83ODM0"
     },
     "10616532": {
         "name": "Economics and Computation",
-        "shortName": "Economics & Comp.",
+        "shortName": "Econ. & Comp.",
         "abbr": "E&C",
         "tgGroup": "https://t.me/+lJ3cIF3wDMs2N2Q8"
     }
