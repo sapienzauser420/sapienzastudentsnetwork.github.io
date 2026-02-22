@@ -16,6 +16,7 @@ timetables:
         - '1015889'   # RETI DI ELABORATORI
         - '1020422_2' # SISTEMI OPERATIVI I MODULO
 channel: 2
+bookToc: false
 ---
 
 Consulta l'orario delle lezioni del Secondo Anno di Informatica per il canale M-Z

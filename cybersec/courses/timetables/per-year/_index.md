@@ -34,6 +34,7 @@ timetables:
         #- '1055061'   # SECURITY GOVERNANCE
         - '10600449' # ADVANCED INFORMATION SYSTEMS SECURITY AND BLOCKCHAIN
         - 'AAF1803'  # CYBER SECURITY SEMINARS
+bookToc: false
 ---
 
 Check out the lesson timetables for the master's degree in Cybersecurity

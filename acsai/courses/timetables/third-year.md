@@ -15,6 +15,7 @@ timetables:
         - '10595535'  # HUMAN COMPUTER INTERACTION      
         - '10595537'  # LAW AND COMPUTER SCIENCE
         - '10595533'  # OPTIMIZATION
+bookToc: false
 ---
 
 Check out the lesson timetable for the third year of ACSAI

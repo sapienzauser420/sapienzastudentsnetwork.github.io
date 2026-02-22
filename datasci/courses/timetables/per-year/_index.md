@@ -28,6 +28,7 @@ timetables:
         - '10616533' # GRAPH MINING AND APPLICATIONS
         - '1047215'  # INTELLECTUAL PROPERTY COMPETITION AND DATA PROTECTION LAW
         - '1056023'  # SMART ENVIRONMENTS
+bookToc: false
 ---
 
 Check out the lesson timetables for the master's degree in Data Science

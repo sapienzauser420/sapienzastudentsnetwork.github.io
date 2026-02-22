@@ -28,6 +28,7 @@ timetables:
         - '10620599'   # ALGORITMI 1
         - '10621549_2' # ANALISI MATEMATICA II MODULO
         - '1015884'    # METODOLOGIE DI PROGRAMMAZIONE
+bookToc: false
 ---
 
 Consulta l'orario delle lezioni del Primo Anno di Informatica

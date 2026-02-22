@@ -17,6 +17,7 @@ timetables:
         - '10595546_2'  # COMPUTER ARCHITECTURE
         - '10595523'    # PHYSICS
         - '10600241'    # PROGRAMMING 2
+bookToc: false
 ---
 
 Check out the lesson timetable for the first year of ACSAI

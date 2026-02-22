@@ -26,6 +26,7 @@ timetables:
         - '1022268'  # SICUREZZA
         - '10589652' # TECNICHE DI PROGRAMMAZIONE FUNZIONALE E IMPERATIVA
         - '10600494' # VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI
+bookToc: false
 ---
 
 Consulta l'orario delle lezioni del Terzo Anno di Informatica

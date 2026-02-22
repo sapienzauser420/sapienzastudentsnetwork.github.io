@@ -23,6 +23,7 @@ timetables:
         - '10589555' # PRACTICAL NETWORK DEFENSE
         - '1054963'  # SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY
         - '1054962'  # SECURE COMPUTATION
+bookToc: false
 ---
 
 Check out the lesson timetable for the first year of Cybersecurity

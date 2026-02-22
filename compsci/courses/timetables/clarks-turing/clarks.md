@@ -16,6 +16,7 @@ timetables:
       - '1047629'  # GRAPH THEORY
       - '1047636'  # MATHEMATICAL LOGIC FOR COMPUTER SCIENCE
       - '10589557' # METHODS IN COMPUTER SCIENCE EDUCATION: ANALYSIS
+bookToc: false
 ---
 
 Check out "Babbage" lesson timetable for the master's degree in Computer Science

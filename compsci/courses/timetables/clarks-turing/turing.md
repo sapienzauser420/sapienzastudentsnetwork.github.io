@@ -15,6 +15,7 @@ timetables:
       - '1038141'  # NATURAL LANGUAGE PROCESSING
       - '10589555' # PRACTICAL NETWORK DEFENSE
       - '1047643'  # TOPICS IN PHYSICS
+bookToc: false
 ---
 
 Check out "Turing" lesson timetable for the master's degree in Computer Science

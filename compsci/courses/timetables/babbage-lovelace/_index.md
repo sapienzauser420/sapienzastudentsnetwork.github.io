@@ -28,6 +28,7 @@ timetables:
       - '1047622'  # CRYPTOGRAPHY
       - '1047640'  # NETWORK ALGORITHMS
       - '1047642'  # SECURITY IN SOFTWARE APPLICATIONS
+bookToc: false
 bookHidden: true
 ---
 

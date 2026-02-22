@@ -17,6 +17,7 @@ timetables:
       - '10589558' # METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN
       - '1047638'  # MODELS OF COMPUTATION
       - '10620565' # QUANTUM COMPUTING
+bookToc: false
 ---
 
 Check out "Babbage" lesson timetable for the master's degree in Computer Science

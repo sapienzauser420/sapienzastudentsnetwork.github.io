@@ -17,6 +17,7 @@ timetables:
         - '1047209'    # QUANTITATIVE MODELS FOR ECONOMIC ANALYSIS AND MANAGEMENT
         - '10621099'   # STATISTICAL MACHINE LEARNING
         - '10615930'   # STOCHASTIC PROCESSES FOR DATA SCIENCE
+bookToc: false
 ---
 
 Check out the lesson timetable for the first year of Data Science

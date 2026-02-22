@@ -17,6 +17,7 @@ timetables:
         - '10595610'   # AI LAB: COMPUTER VISION AND NLP
         - '10595617_2' # DATA MANAGEMENT AND ANALYSIS
         - '1055043'    # STATISTICS
+bookToc: false
 ---
 
 Check out the lesson timetable for the second year of ACSAI

@@ -16,6 +16,7 @@ timetables:
         - '10621549_2' # ANALISI MATEMATICA II MODULO
         - '1015884'    # METODOLOGIE DI PROGRAMMAZIONE
 channel: 1
+bookToc: false
 ---
 
 Consulta l'orario delle lezioni del Primo Anno di Informatica per il canale A-L

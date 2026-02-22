@@ -27,6 +27,7 @@ timetables:
       - '1038141'  # NATURAL LANGUAGE PROCESSING
       - '10589555' # PRACTICAL NETWORK DEFENSE
       - '1047643'  # TOPICS IN PHYSICS
+bookToc: false
 bookHidden: false
 ---
 
