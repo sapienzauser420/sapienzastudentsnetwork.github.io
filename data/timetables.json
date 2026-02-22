@@ -869,27 +869,9 @@
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
             }
-          },
-          {
-            "teachers": {
-              "a694c7295093c4c327056a69b52ca84415bfb8978639a3a32a24ba40": "CASALICCHIO EMILIANO"
-            },
-            "timeslot": "12 - 14",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
           }
         ],
         "gioved\u00ec": [
-          {
-            "teachers": {
-              "a694c7295093c4c327056a69b52ca84415bfb8978639a3a32a24ba40": "CASALICCHIO EMILIANO"
-            },
-            "timeslot": "15 - 19",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          },
           {
             "teachers": {
               "a694c7295093c4c327056a69b52ca84415bfb8978639a3a32a24ba40": "CASALICCHIO EMILIANO"
@@ -949,27 +931,9 @@
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
             }
-          },
-          {
-            "teachers": {
-              "1d7f2572efcc18caab227fcf62db9ca08022e850ac3f90bda80c0afb": "HITAJ DORJAN"
-            },
-            "timeslot": "8 - 10",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-            }
           }
         ],
         "gioved\u00ec": [
-          {
-            "teachers": {
-              "1d7f2572efcc18caab227fcf62db9ca08022e850ac3f90bda80c0afb": "HITAJ DORJAN"
-            },
-            "timeslot": "8 - 11",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-            }
-          },
           {
             "teachers": {
               "1d7f2572efcc18caab227fcf62db9ca08022e850ac3f90bda80c0afb": "HITAJ DORJAN"
@@ -1273,15 +1237,6 @@
     "channels": {
       "0": {
         "mercoled\u00ec": [
-          {
-            "teachers": {
-              "cb07c5c1ada02c8f7a23ce6e20e20a7bf1365e3bc64f0a48c22bc1f5": "SPOGNARDI ANGELO"
-            },
-            "timeslot": "12 - 14",
-            "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            }
-          },
           {
             "teachers": {
               "cb07c5c1ada02c8f7a23ce6e20e20a7bf1365e3bc64f0a48c22bc1f5": "SPOGNARDI ANGELO"

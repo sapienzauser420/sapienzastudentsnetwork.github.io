@@ -86,6 +86,9 @@ def extract_timetables_and_teachers(DOM, semester, degree_programme_code, course
     """
     Iterates through the HTML tables to extract class timetables and populate teachers and courses dictionaries.
     """
+    # Load the mapping file to translate teacher IDs immediately upon extraction
+    teacher_mapping = load_dict_from_json("../data/teachers_mapping.json")
+
     # Hard-coded list of (course_code, channel, teacher_name) erroneous combinations to be ignored
     ignore_conditions = [
         # ("1015883", "1", "MASI IACOPO"),  # Ignore MASI IACOPO's class for course 1015883 on channel 1
@@ -148,6 +151,9 @@ def extract_timetables_and_teachers(DOM, semester, degree_programme_code, course
                         teacher_page_url = teacher_a['href']
                         # Extract the teacher's UID from the URL of the teacher's page
                         teacher_id = teacher_page_url.split('=')[-1]
+
+                        # Apply ID mapping immediately to ensure consistency and prevent duplicates in cross-listed courses
+                        teacher_id = teacher_mapping.get(teacher_id, teacher_id)
 
                         if teacher_id not in teachers_dict:
                             teachers_dict[teacher_id] = {"name": teacher_name}
