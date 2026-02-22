@@ -546,6 +546,38 @@ def apply_manual_overrides(course_timetables_dict, degree_programme_code):
                 channel_data[day_name] = filtered_day_schedules
 
 
+def apply_teacher_id_mapping(course_timetables_dict, teachers_dict):
+    """
+    Replaces the raw GOMP teacher IDs with
+    corsidilaurea IDs using a mapping file.
+    """
+    mapping_file_path = "../data/teachers_mapping.json"
+
+    mapping = load_dict_from_json(mapping_file_path)
+    if not mapping:
+        print(f"No mapping found in {mapping_file_path}. Skipping ID replacement.")
+        return
+
+    # 1. Update keys in the main teachers dictionary
+    for old_id, new_id in mapping.items():
+        if old_id in teachers_dict:
+            teachers_dict[new_id] = teachers_dict.pop(old_id)
+
+    # 2. Update teacher IDs nested inside the course timetables dictionary
+    for course_code, course_data in course_timetables_dict.items():
+        for channel, channel_data in course_data.get("channels", {}).items():
+            for day_name, day_schedules in channel_data.items():
+                for schedule in day_schedules:
+                    if "teachers" in schedule:
+                        updated_teachers = {}
+                        for t_id, t_name in schedule["teachers"].items():
+                            # Use the new ID if mapped, otherwise default to the old one
+                            final_id = mapping.get(t_id, t_id)
+                            updated_teachers[final_id] = t_name
+
+                        schedule["teachers"] = updated_teachers
+
+
 def main():
     # Semester to scrape lesson timetables for
     semester = os.getenv("SEMESTER", "primo")
@@ -590,6 +622,8 @@ def main():
     extract_classrooms(DOM, classrooms_dict)
 
     apply_manual_overrides(course_timetables_dict, degree_programme_code)
+
+    apply_teacher_id_mapping(course_timetables_dict, teachers_dict)
 
     # Save the classrooms information to a JSON file
     with open(f"../data/classrooms.json", 'w') as classroomsFile:
