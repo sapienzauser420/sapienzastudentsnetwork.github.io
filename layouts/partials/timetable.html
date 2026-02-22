@@ -18,30 +18,60 @@
         }
     }
 
-    // Helper to extract and format classroom number with proper suffix
-    function formatRoom(roomString) {
+    // Extract classroom number and its specific suffix
+    function getRoomData(roomString) {
         if (!roomString) return null;
 
-        // Regex pattern to match Roman numerals (I, II, III, IV, V, VI, IX, X, XI) or alphanumeric room identifiers (e.g., A1, B2, RM018)
+        // Regex pattern to match Roman numerals or alphanumeric room identifiers
         const classroomPattern = /\b(Zoom|Meet|I{1,3}|IV|V{1,3}|VI|IX|X|XI bis|XI|Alfa|Magna|G|Tullio)\b|\b[A-Za-z]*\d+[A-Za-z]*\b/;
         const match = roomString.match(classroomPattern);
 
         if (match) {
             let roomNumber = match[0]; // Extract the matched room number
+            let suffix = "";
 
-            if (roomString.includes("Eudossiana")) return roomNumber + " SPV";
-            if (roomString.includes("RM158")) return roomNumber + " DL";     // De Lollis
-            if (roomString.includes("RM112")) return roomNumber + " RE";     // Regina Elena, Ed. D
-            if (roomString.includes("RM113")) return roomNumber + " RE";     // Regina Elena, Ed. E
-            if (roomString.includes("RM005")) return roomNumber + " SC";     // Via Antonio Scarpa
-            if (roomString.includes("RM025")) return roomNumber + " TIB";    // Laboratori Tiburtina
-            if (roomString.includes("CU002")) return roomNumber + " ST";     // Scienze Statistiche
+            // Determine the correct suffix based on the building/location
+            if (roomString.includes("Eudossiana")) suffix = " SPV";
+            else if (roomString.includes("RM158")) suffix = " DL";     // De Lollis
+            else if (roomString.includes("RM112")) suffix = " RE";     // Regina Elena
+            else if (roomString.includes("RM113")) suffix = " RE";     // Regina Elena
+            else if (roomString.includes("RM005")) suffix = " SC";     // Via Antonio Scarpa
+            else if (roomString.includes("RM025")) suffix = " TIB";    // Laboratori Tiburtina
+            else if (roomString.includes("CU002")) suffix = " ST";     // Scienze Statistiche
+            else if (roomString.includes("RM018")) suffix = "L";       // Aule L Castro Laurenziano
 
-            // "RM018" (Aule L Castro Laurenziano) -> "L"
-            return roomString.includes("RM018") ? roomNumber + "L" : roomNumber;
+            return { room: roomNumber, suffix: suffix };
         }
 
         return null; // Return null if no match is found
+    }
+
+    // Group classrooms that share the same suffix to avoid repetitions (e.g., "15, 16 TIB")
+    function formatClassrooms(roomStringsArray) {
+        if (!roomStringsArray || roomStringsArray.length === 0) return null;
+
+        const groups = {};
+
+        // Iterate over the raw room strings to extract and group them by suffix
+        for (const roomString of roomStringsArray) {
+            const data = getRoomData(roomString);
+            if (!data) continue;
+
+            // Initialize the array for a new suffix if it doesn't exist
+            if (!groups[data.suffix]) {
+                groups[data.suffix] = [];
+            }
+            groups[data.suffix].push(data.room);
+        }
+
+        const result = [];
+        for (const suffix in groups) {
+            // Join room numbers (e.g., "15, 16") and append the shared suffix at the end
+            result.push(groups[suffix].join(', ') + suffix);
+        }
+
+        // Join different groups with a separator if they are in different buildings
+        return result.length > 0 ? result.join(' - ') : null;
     }
 
     function fillTimetable(tableId, courses, degreeCourseCodes, channel) {
@@ -87,12 +117,15 @@
 
                     let cancelled = time.cancelled === true;
 
-                    // Determine the source of classroom information and format it
-                    let classrooms = time.classroomInfo
-                        ? formatRoom(time.classroomInfo)
-                        : time.classrooms
-                            ? Object.values(time.classrooms).map(formatRoom).filter(Boolean).join(', ')
-                            : null;
+                    // Determine the source of classroom information and format it by grouping suffixes
+                    let roomArray = [];
+                    if (time.classroomInfo) {
+                        roomArray = [time.classroomInfo];
+                    } else if (time.classrooms) {
+                        roomArray = Object.values(time.classrooms);
+                    }
+
+                    let classrooms = formatClassrooms(roomArray);
 
                     let en_day = {
                         'lunedì': 'monday',
