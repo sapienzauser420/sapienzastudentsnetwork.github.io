@@ -2511,9 +2511,8 @@
               "1bc0b942e1da31ffa70f9a65719bb0fc4331711da1602e311918d8e3": "WOLLAN PAUL JOSEPH"
             },
             "timeslot": "16 - 18",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-            }
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       }
