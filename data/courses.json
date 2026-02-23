@@ -436,13 +436,13 @@
     },
     "10595618_1": {
         "name": "Artificial Intelligence and Machine Learning (Unit 1)",
-        "shortName": "AI & ML (AI)",
+        "shortName": "AI (U1)",
         "abbr": "AI",
         "cfu": 6
     },
     "10595618_2": {
         "name": "Artificial Intelligence and Machine Learning (Unit 2)",
-        "shortName": "AI & ML (ML)",
+        "shortName": "ML (U2)",
         "abbr": "ML",
         "cfu": 6
     },
