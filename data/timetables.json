@@ -268,7 +268,9 @@
       "2": {
         "luned\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "1310d579c7a352a478e1634057c547d1c038233284472bc63796d604": "Esposito Marco"
+            },
             "timeslot": "14 - 16",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
@@ -276,7 +278,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "1310d579c7a352a478e1634057c547d1c038233284472bc63796d604": "Esposito Marco"
+            },
             "timeslot": "16 - 19",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
