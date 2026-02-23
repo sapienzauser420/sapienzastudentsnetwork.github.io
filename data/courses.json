@@ -65,9 +65,17 @@
     },
     "10620599": {
         "name": "Algoritmi 1",
-        "shortName": "Algo 1",
+        "shortName": "Algoritmi",
         "abbr": "ALG1",
         "tgGroup": "https://t.me/+wJY633Yc1pUxMjk0",
+        "cfu": 6,
+        "department": "INF"
+    },
+    "10620600": {
+        "name": "Algoritmi 2",
+        "shortName": "Algoritmi",
+        "abbr": "ALG2",
+        "tgGroup": "https://t.me/+qtCCTLlBW4pjY2Jk",
         "cfu": 6,
         "department": "INF"
     },
