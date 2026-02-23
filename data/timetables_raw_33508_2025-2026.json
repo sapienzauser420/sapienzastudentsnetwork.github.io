@@ -617,7 +617,18 @@
                 "day": "mercoled\u00ec",
                 "from": "08:00",
                 "to": "11:00"
-              },
+              }
+            ],
+            "subject": "GRAPH THEORY",
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "1047629",
+            "room": "Aula T1 ",
+            "schedule": [
               {
                 "day": "venerd\u00ec",
                 "from": "10:00",
@@ -1465,7 +1476,18 @@
                 "day": "mercoled\u00ec",
                 "from": "08:00",
                 "to": "11:00"
-              },
+              }
+            ],
+            "subject": "GRAPH THEORY",
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "1047629",
+            "room": "Aula T1 ",
+            "schedule": [
               {
                 "day": "venerd\u00ec",
                 "from": "10:00",

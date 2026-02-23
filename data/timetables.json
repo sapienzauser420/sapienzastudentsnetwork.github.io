@@ -113,7 +113,8 @@
         "marted\u00ec": [
           {
             "teachers": {
-              "c9eb495c6faf1401a715905f4e81b0d9778b536d0937143cf6f65bae": "TERRACINA ANDREA"
+              "c9eb495c6faf1401a715905f4e81b0d9778b536d0937143cf6f65bae": "TERRACINA ANDREA",
+              "6f7a12ae2d349c788c5d08abc288eb88e6835d7742f8925933eabb62": "LANZARA FLAVIA"
             },
             "timeslot": "12 - 14",
             "classrooms": {
@@ -124,7 +125,8 @@
         "venerd\u00ec": [
           {
             "teachers": {
-              "c9eb495c6faf1401a715905f4e81b0d9778b536d0937143cf6f65bae": "TERRACINA ANDREA"
+              "c9eb495c6faf1401a715905f4e81b0d9778b536d0937143cf6f65bae": "TERRACINA ANDREA",
+              "6f7a12ae2d349c788c5d08abc288eb88e6835d7742f8925933eabb62": "LANZARA FLAVIA"
             },
             "timeslot": "11 - 14",
             "classrooms": {
@@ -266,7 +268,9 @@
       "2": {
         "luned\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "1310d579c7a352a478e1634057c547d1c038233284472bc63796d604": "Esposito Marco"
+            },
             "timeslot": "14 - 16",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
@@ -274,7 +278,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "1310d579c7a352a478e1634057c547d1c038233284472bc63796d604": "Esposito Marco"
+            },
             "timeslot": "16 - 19",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
@@ -574,9 +580,8 @@
               "1bc0b942e1da31ffa70f9a65719bb0fc4331711da1602e311918d8e3": "WOLLAN PAUL JOSEPH"
             },
             "timeslot": "16 - 18",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-            }
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       }
@@ -2510,9 +2515,8 @@
               "1bc0b942e1da31ffa70f9a65719bb0fc4331711da1602e311918d8e3": "WOLLAN PAUL JOSEPH"
             },
             "timeslot": "16 - 18",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-            }
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       }

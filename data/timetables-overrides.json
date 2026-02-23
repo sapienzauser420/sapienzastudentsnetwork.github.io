@@ -271,18 +271,57 @@
     }
   },
   "add_teachers": {
-    "1038141": {"1986beaa-9a9b-493a-932c-82a3ff97b6f9": "FARALLI STEFANO"},
-    "10607006": {"8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"},
-    "10620665": {"b6bb1ba8-7e12-48b3-bc4e-dccbb9840942": "CARLUCCI LORENZO"},
-    "10595537": {"d487b5a4-5e48-44c8-9130-f12bfda39f2b": "SIGISMONDI IRENE"},
-    "1047639": {"f738330a-ffb2-4dc3-b40e-205299ff9ad1": "MANCINI MAURIZIO"},
-    "1047197": {
-      "543a2a4d-28ad-4d11-aedf-e2357daa1fe9": "LEMBO DOMENICO",
-      "92031bb1-4da8-400a-a2e9-5ef2ba177a43": "ROSATI RICCARDO"
+    "1038141": {
+      "0": {
+        "1986beaa-9a9b-493a-932c-82a3ff97b6f9": "FARALLI STEFANO"
+      }
     },
-    "10621172": {"2d3939bb-2659-406d-a6db-5a27c6fe25dd": "COLONNESE STEFANIA"},
-    "10621173": {"9c08b70d-a56a-4141-92fb-5ef505b61325": "BECCHETTI LUCA"},
-    "1056023": {"1f83a5408282953c50f215c4fad15d975dfc7d64bb6e3c04eae31c0f": "SPADACCINO PIETRO"}
+    "10607006": {
+      "0": {
+        "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
+      }
+    },
+    "10620665": {
+      "0": {
+        "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942": "CARLUCCI LORENZO"
+      }
+    },
+    "10595537": {
+      "0": {
+        "d487b5a4-5e48-44c8-9130-f12bfda39f2b": "SIGISMONDI IRENE"
+      }
+    },
+    "1047639": {
+      "0": {
+        "f738330a-ffb2-4dc3-b40e-205299ff9ad1": "MANCINI MAURIZIO"
+      }
+    },
+    "1047197": {
+      "0": {
+        "543a2a4d-28ad-4d11-aedf-e2357daa1fe9": "LEMBO DOMENICO",
+        "92031bb1-4da8-400a-a2e9-5ef2ba177a43": "ROSATI RICCARDO"
+      }
+    },
+    "10621172": {
+      "0": {
+        "2d3939bb-2659-406d-a6db-5a27c6fe25dd": "COLONNESE STEFANIA"
+      }
+    },
+    "10621173": {
+      "0": {
+        "9c08b70d-a56a-4141-92fb-5ef505b61325": "BECCHETTI LUCA"
+      }
+    },
+    "1056023": {
+      "0": {
+        "1f83a5408282953c50f215c4fad15d975dfc7d64bb6e3c04eae31c0f": "SPADACCINO PIETRO"
+      }
+    },
+    "10621549_2": {
+      "1": {
+        "6f7a12ae2d349c788c5d08abc288eb88e6835d7742f8925933eabb62": "LANZARA FLAVIA"
+      }
+    }
   },
   "replace_classrooms": {
     "41f8d660-fcfd-4b27-9dc6-8da0e075088b": {
@@ -307,11 +346,11 @@
         }
       }
     },
-    "1022265": {
+    "10595533": {
       "channels": {
         "0": {
           "mercoledì": {
-            "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
           }
         }
       }

@@ -766,7 +766,7 @@
             ],
             "subject": "BASI DI DATI II MODULO",
             "teachers": [
-              ""
+              "Esposito Marco"
             ]
           },
           {
@@ -1065,24 +1065,13 @@
             "schedule": [
               {
                 "day": "luned\u00ec",
-                "from": "10:00",
+                "from": "11:00",
                 "to": "13:00"
-              }
-            ],
-            "subject": "INTELLIGENZA ARTIFICIALE",
-            "teachers": [
-              "MANCINI TONI"
-            ]
-          },
-          {
-            "building": "Edificio: RM113",
-            "course": "1022262",
-            "room": "Aula T1 ",
-            "schedule": [
+              },
               {
                 "day": "venerd\u00ec",
                 "from": "10:00",
-                "to": "12:00"
+                "to": "13:00"
               }
             ],
             "subject": "INTELLIGENZA ARTIFICIALE",

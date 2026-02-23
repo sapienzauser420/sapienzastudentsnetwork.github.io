@@ -490,6 +490,7 @@ def apply_manual_overrides(course_timetables_dict, degree_programme_code):
     # Iterate through data for inline updates (teachers and classrooms)
     master_degrees = ("33508", "33516")
     add_teachers = overrides.get("add_teachers", {})
+    override_teachers = overrides.get("override_teachers", {})
     replace_classrooms = overrides.get("replace_classrooms", {})
     remove_teachers = overrides.get("remove_teachers", {})
 
@@ -522,10 +523,18 @@ def apply_manual_overrides(course_timetables_dict, degree_programme_code):
                     if skip_schedule:
                         continue
 
-                    # Update or add teacher names if they match the override configuration
+                    # Update or add teacher names if they match the override configuration (channel specific)
                     if "teachers" in day_schedule and course_code in add_teachers:
-                        for teacher_id, new_name in add_teachers[course_code].items():
-                            day_schedule["teachers"][teacher_id] = new_name
+                        if channel_id in add_teachers[course_code]:
+                            for teacher_id, new_name in add_teachers[course_code][channel_id].items():
+                                day_schedule["teachers"][teacher_id] = new_name
+
+                    # Overwrite teachers entirely for a specific channel and day
+                    if "teachers" in day_schedule and course_code in override_teachers:
+                        if channel_id in override_teachers[course_code]:
+                            if day_name in override_teachers[course_code][channel_id]:
+                                # Replace the entire dictionary of teachers, removing existing ones
+                                day_schedule["teachers"] = override_teachers[course_code][channel_id][day_name].copy()
 
                     # Replace classroom details with custom info/URL mapping
                     if "classrooms" in day_schedule:

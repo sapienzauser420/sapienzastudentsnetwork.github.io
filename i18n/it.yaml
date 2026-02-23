@@ -96,6 +96,9 @@
 - id: Subjs_Provisional
   translation: Gli orari in questa pagina si sincronizzano automaticamente con un'API ufficiale che, per il momento, restituisce però orari parziali o provvisori.
 
+- id: Subjs_DelayedStart
+  translation: "Le lezioni del secondo semestre sono iniziate il 23 febbraio 2026, a meno di eventuali insegnamenti per cui è stato riportato diversamente con avvisi sul foglio predisposto dalla Segreteria Didattica: "
+
 - id: Subjs_WorkInProgress
   translation: Orari in fase di aggiornamento. Ti preghiamo di non farci affidamento per il momento e riprovare più tardi!
 
