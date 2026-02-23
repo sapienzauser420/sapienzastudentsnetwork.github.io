@@ -46,13 +46,16 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 
 #### Secondo Semestre
 
-[Entra in tutti](https://t.me/addlist/67z3BS7RlIFlYzM0)
+[Entra in tutti](https://t.me/addlist/eMiK7N6TfNY1MDI0)
 
-- [Architettura degli Elaboratori](https://t.me/+2PAqwS4raLY4N2U0)
-- [Calcolo Integrale](https://t.me/+lnnFbmFQNNBjNGRk)
-- [Introduzione agli Algoritmi](https://t.me/+wJY633Yc1pUxMjk0)
-- [Lingua Inglese](https://t.me/+clLwVwTLUHk3YzM0)
+- [Algebra Lineare e Geometria](https://t.me/+798mXLThj_JmYTBk)
+- [Algoritmi 1](https://t.me/+wJY633Yc1pUxMjk0)
+- [Analisi Matematica II Modulo](https://t.me/+lnnFbmFQNNBjNGRk)
 - [Metodologie di Programmazione](https://t.me/+8iyKxeRgfXtmY2Y0)
+
+[Vecchio ordinamento](https://t.me/addlist/67z3BS7RlIFlYzM0)
+- [Architettura degli Elaboratori](https://t.me/+2PAqwS4raLY4N2U0)
+- [Lingua Inglese](https://t.me/+clLwVwTLUHk3YzM0)
 
 ### Secondo Anno
 
