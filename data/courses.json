@@ -324,60 +324,70 @@
         "name": "Calculus (Unit 1)",
         "shortName": "Calculus",
         "abbr": "CU1",
+        "tgGroup": "https://t.me/+o3fO3XEZwZs4NDJk",
         "cfu": 12
     },
     "10595099_2": {
         "name": "Calculus (Unit 2)",
         "shortName": "Calculus",
         "abbr": "CU2",
+        "tgGroup": "https://t.me/+o3fO3XEZwZs4NDJk",
         "cfu": 12
     },
     "10595546_1": {
         "name": "Computer Architecture (Unit 1)",
         "shortName": "Comp. Arch.",
         "abbr": "CAU1",
+        "tgGroup": "https://t.me/+o3fO3XEZwZs4NDJk",
         "cfu": 12
     },
     "10595546_2": {
         "name": "Computer Architecture (Unit 2)",
         "shortName": "Comp. Arch.",
         "abbr": "CAU2",
+        "tgGroup": "https://t.me/+o3fO3XEZwZs4NDJk",
         "cfu": 12
     },
     "10595524": {
         "name": "Linear Algebra",
         "shortName": "Lin. Alg.",
         "abbr": "LA",
+        "tgGroup": "https://t.me/+o3fO3XEZwZs4NDJk",
         "cfu": 6
     },
     "10595102_1": {
         "name": "Programming (Unit 1)",
         "shortName": "Prog. U1",
         "abbr": "PRU1",
+        "tgGroup": "https://t.me/+o3fO3XEZwZs4NDJk",
         "cfu": 12
     },
     "10595102_2": {
         "name": "Programming (Unit 2)",
         "shortName": "Prog. U2",
         "abbr": "PRU2",
+        "tgGroup": "https://t.me/+o3fO3XEZwZs4NDJk",
         "cfu": 12
     },
     "1049269": {
         "name": "Algorithms",
         "shortName": "Algorithms",
         "abbr": "ALGO",
+        "tgGroup": "https://t.me/+o3fO3XEZwZs4NDJk",
         "cfu": 6
     },
     "10595523": {
         "name": "Physics",
         "shortName": "Physics",
         "abbr": "PHY",
+        "tgGroup": "https://t.me/+o3fO3XEZwZs4NDJk",
         "cfu": 6
     },
     "10600241": {
         "name": "Programming 2",
         "shortName": "Programming",
         "abbr": "PR2",
+        "tgGroup": "https://t.me/+o3fO3XEZwZs4NDJk",
         "cfu": 6
     },
     "10595529": {
