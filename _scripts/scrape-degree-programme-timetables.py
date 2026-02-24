@@ -82,6 +82,59 @@ def escape_dict_double_quotes(input_dict) -> dict:
     return json.loads(input_dict_json_string)
 
 
+def get_deterministic_timetables(timetables_dict):
+    """
+    Recursively sorts and orders the timetables dictionary to guarantee
+    a strictly deterministic JSON output order, avoiding noisy commits.
+    """
+    ordered_dict = {}
+    sort_days_order = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato", "domenica"]
+
+    for course_code in sorted(timetables_dict.keys()):
+        course_data = timetables_dict[course_code]
+        ordered_channels = {}
+
+        for channel in sorted(course_data.get("channels", {}).keys()):
+            day_data = course_data["channels"][channel]
+            ordered_days = {}
+
+            for day in sort_days_order:
+                if day in day_data:
+                    ordered_schedules = []
+                    for sched in day_data[day]:
+                        ordered_sched = {}
+                        for key in ["teachers", "timeslot", "classrooms", "classroomInfo", "classroomUrl"]:
+                            if key in sched:
+                                if key == "teachers":
+                                    # Sort teachers alphabetically by their names (values)
+                                    ordered_sched[key] = {
+                                        k: v for k, v in sorted(
+                                            sched[key].items(),
+                                            key=lambda item: item[1]
+                                        )
+                                    }
+                                elif isinstance(sched[key], dict):
+                                    # Sort other dicts (like classrooms) by their keys
+                                    ordered_sched[key] = {k: sched[key][k] for k in sorted(sched[key].keys())}
+                                else:
+                                    ordered_sched[key] = sched[key]
+                        ordered_schedules.append(ordered_sched)
+
+                    ordered_schedules.sort(key=lambda x: x.get("timeslot", ""))
+                    ordered_days[day] = ordered_schedules
+
+            ordered_channels[channel] = ordered_days
+
+        ordered_dict[course_code] = {
+            "subject": course_data.get("subject"),
+            "degree": course_data.get("degree"),
+            "channels": ordered_channels,
+            "code": course_data.get("code")
+        }
+
+    return ordered_dict
+
+
 def extract_timetables_and_teachers(DOM, semester, degree_programme_code, course_timetables_dict, teachers_dict):
     """
     Iterates through the HTML tables to extract class timetables and populate teachers and courses dictionaries.
@@ -663,6 +716,9 @@ def main():
                         sorted_channels[channel] = sorted_days
                     course_timetables_dict[course_code]["channels"] = sorted_channels
 
+                # Guarantee json determinism: completely rebuild dictionary ordering before save
+                course_timetables_dict = get_deterministic_timetables(course_timetables_dict)
+
                 with open(course_timetables_file_name, 'w') as timetablesFile:
                     json.dump(escape_dict_double_quotes(course_timetables_dict), timetablesFile, indent=2)
 
@@ -697,8 +753,8 @@ def main():
     with open(f"../data/teachers.json", 'w') as teachersFile:
         json.dump(escape_dict_double_quotes(teachers_dict), teachersFile, indent=2)
 
-    # Sort top-level keys to ensure consistent JSON output and prevent noisy commits
-    course_timetables_dict = {k: course_timetables_dict[k] for k in sorted(course_timetables_dict.keys())}
+    # Guarantee json determinism: completely rebuild dictionary ordering before save
+    course_timetables_dict = get_deterministic_timetables(course_timetables_dict)
 
     # Save the course timetables to a JSON file
     with open(f"../data/timetables.json", 'w') as timetablesFile:
