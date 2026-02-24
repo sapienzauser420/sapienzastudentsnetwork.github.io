@@ -620,11 +620,60 @@ def main():
     course_timetables_file_name = "../data/timetables.json"
     course_timetables_dict = load_dict_from_json(course_timetables_file_name)
 
-    # Scrape data
-    DOM = BeautifulSoup(
-        ' '.join(get(gomppublic_generateorario_url, verify=False).content[13:-3].decode('unicode-escape').split()),
-        'html.parser'
-    )
+    try:
+        response = get(gomppublic_generateorario_url, verify=False, timeout=20)
+        raw_html = response.content[13:-3].decode('unicode-escape')
+        DOM = BeautifulSoup(' '.join(raw_html.split()), 'html.parser')
+    except Exception as e:
+        print(f"Error fetching data: {e}")
+        DOM = BeautifulSoup("", "html.parser")
+
+    if not DOM.find_all(class_='sommario'):
+        print(f"Warning: No timetables found for degree programme {degree_programme_code}. Restoring previous data.")
+        backup_file_name = "../data/timetables_backup.json"
+
+        if os.path.exists(backup_file_name):
+            try:
+                with open(backup_file_name, "r") as backup_file:
+                    backup_timetables = json.load(backup_file)
+
+                for key, course_data in backup_timetables.items():
+                    if course_data.get("degree") == degree_programme_code:
+                        if key not in course_timetables_dict:
+                            course_timetables_dict[key] = course_data
+                        else:
+                            for channel, days in course_data.get("channels", {}).items():
+                                if channel not in course_timetables_dict[key]["channels"]:
+                                    course_timetables_dict[key]["channels"][channel] = days
+                                else:
+                                    for day, schedules in days.items():
+                                        if day not in course_timetables_dict[key]["channels"][channel]:
+                                            course_timetables_dict[key]["channels"][channel][day] = schedules
+                                        else:
+                                            existing_schedules = course_timetables_dict[key]["channels"][channel][day]
+                                            for sched in schedules:
+                                                if sched not in existing_schedules:
+                                                    existing_schedules.append(sched)
+
+                sort_days_order = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì"]
+                for course_code, course_code_data in course_timetables_dict.items():
+                    sorted_channels = {}
+                    for channel, day_data in course_code_data.get("channels", {}).items():
+                        sorted_days = {day: day_data[day] for day in sort_days_order if day in day_data}
+                        sorted_channels[channel] = sorted_days
+                    course_timetables_dict[course_code]["channels"] = sorted_channels
+
+                with open(course_timetables_file_name, 'w') as timetablesFile:
+                    json.dump(escape_dict_double_quotes(course_timetables_dict), timetablesFile, indent=2)
+
+                return
+
+            except Exception as e:
+                print(f"Error restoring backup file: {e}")
+                return
+        else:
+            print("Warning: Backup file not found. Exiting without modifications.")
+            return
 
     extract_timetables_and_teachers(DOM, semester, degree_programme_code, course_timetables_dict, teachers_dict)
 
@@ -647,6 +696,9 @@ def main():
     # Save the teachers information to a JSON file
     with open(f"../data/teachers.json", 'w') as teachersFile:
         json.dump(escape_dict_double_quotes(teachers_dict), teachersFile, indent=2)
+
+    # Sort top-level keys to ensure consistent JSON output and prevent noisy commits
+    course_timetables_dict = {k: course_timetables_dict[k] for k in sorted(course_timetables_dict.keys())}
 
     # Save the course timetables to a JSON file
     with open(f"../data/timetables.json", 'w') as timetablesFile:

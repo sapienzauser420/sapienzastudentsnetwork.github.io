@@ -1,6 +1,10 @@
 #!/bin/bash
 
-rm ../data/timetables.json
+if [ -f ../data/timetables.json ]; then
+    cp ../data/timetables.json ../data/timetables_backup.json
+fi
+
+rm -f ../data/timetables.json
 
 declare -a degree_programme_codes=("33503" "33508" "33516" "33519" "33502")
 academic_year="2025/2026"
@@ -17,3 +21,5 @@ for ((i=0; i<${#degree_programme_codes[@]}; i++)); do
     unset ACADEMIC_YEAR
     unset SEMESTER
 done
+
+rm -f ../data/timetables_backup.json
