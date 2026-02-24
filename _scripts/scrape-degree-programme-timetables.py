@@ -82,6 +82,59 @@ def escape_dict_double_quotes(input_dict) -> dict:
     return json.loads(input_dict_json_string)
 
 
+def get_deterministic_timetables(timetables_dict):
+    """
+    Recursively sorts and orders the timetables dictionary to guarantee
+    a strictly deterministic JSON output order, avoiding noisy commits.
+    """
+    ordered_dict = {}
+    sort_days_order = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato", "domenica"]
+
+    for course_code in sorted(timetables_dict.keys()):
+        course_data = timetables_dict[course_code]
+        ordered_channels = {}
+
+        for channel in sorted(course_data.get("channels", {}).keys()):
+            day_data = course_data["channels"][channel]
+            ordered_days = {}
+
+            for day in sort_days_order:
+                if day in day_data:
+                    ordered_schedules = []
+                    for sched in day_data[day]:
+                        ordered_sched = {}
+                        for key in ["teachers", "timeslot", "classrooms", "classroomInfo", "classroomUrl"]:
+                            if key in sched:
+                                if key == "teachers":
+                                    # Sort teachers alphabetically by their names (values)
+                                    ordered_sched[key] = {
+                                        k: v for k, v in sorted(
+                                            sched[key].items(),
+                                            key=lambda item: item[1]
+                                        )
+                                    }
+                                elif isinstance(sched[key], dict):
+                                    # Sort other dicts (like classrooms) by their keys
+                                    ordered_sched[key] = {k: sched[key][k] for k in sorted(sched[key].keys())}
+                                else:
+                                    ordered_sched[key] = sched[key]
+                        ordered_schedules.append(ordered_sched)
+
+                    ordered_schedules.sort(key=lambda x: x.get("timeslot", ""))
+                    ordered_days[day] = ordered_schedules
+
+            ordered_channels[channel] = ordered_days
+
+        ordered_dict[course_code] = {
+            "subject": course_data.get("subject"),
+            "degree": course_data.get("degree"),
+            "channels": ordered_channels,
+            "code": course_data.get("code")
+        }
+
+    return ordered_dict
+
+
 def extract_timetables_and_teachers(DOM, semester, degree_programme_code, course_timetables_dict, teachers_dict):
     """
     Iterates through the HTML tables to extract class timetables and populate teachers and courses dictionaries.
@@ -620,11 +673,63 @@ def main():
     course_timetables_file_name = "../data/timetables.json"
     course_timetables_dict = load_dict_from_json(course_timetables_file_name)
 
-    # Scrape data
-    DOM = BeautifulSoup(
-        ' '.join(get(gomppublic_generateorario_url, verify=False).content[13:-3].decode('unicode-escape').split()),
-        'html.parser'
-    )
+    try:
+        response = get(gomppublic_generateorario_url, verify=False, timeout=20)
+        raw_html = response.content[13:-3].decode('unicode-escape')
+        DOM = BeautifulSoup(' '.join(raw_html.split()), 'html.parser')
+    except Exception as e:
+        print(f"Error fetching data: {e}")
+        DOM = BeautifulSoup("", "html.parser")
+
+    if not DOM.find_all(class_='sommario'):
+        print(f"Warning: No timetables found for degree programme {degree_programme_code}. Restoring previous data.")
+        backup_file_name = "../data/timetables_backup.json"
+
+        if os.path.exists(backup_file_name):
+            try:
+                with open(backup_file_name, "r") as backup_file:
+                    backup_timetables = json.load(backup_file)
+
+                for key, course_data in backup_timetables.items():
+                    if course_data.get("degree") == degree_programme_code:
+                        if key not in course_timetables_dict:
+                            course_timetables_dict[key] = course_data
+                        else:
+                            for channel, days in course_data.get("channels", {}).items():
+                                if channel not in course_timetables_dict[key]["channels"]:
+                                    course_timetables_dict[key]["channels"][channel] = days
+                                else:
+                                    for day, schedules in days.items():
+                                        if day not in course_timetables_dict[key]["channels"][channel]:
+                                            course_timetables_dict[key]["channels"][channel][day] = schedules
+                                        else:
+                                            existing_schedules = course_timetables_dict[key]["channels"][channel][day]
+                                            for sched in schedules:
+                                                if sched not in existing_schedules:
+                                                    existing_schedules.append(sched)
+
+                sort_days_order = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì"]
+                for course_code, course_code_data in course_timetables_dict.items():
+                    sorted_channels = {}
+                    for channel, day_data in course_code_data.get("channels", {}).items():
+                        sorted_days = {day: day_data[day] for day in sort_days_order if day in day_data}
+                        sorted_channels[channel] = sorted_days
+                    course_timetables_dict[course_code]["channels"] = sorted_channels
+
+                # Guarantee json determinism: completely rebuild dictionary ordering before save
+                course_timetables_dict = get_deterministic_timetables(course_timetables_dict)
+
+                with open(course_timetables_file_name, 'w') as timetablesFile:
+                    json.dump(escape_dict_double_quotes(course_timetables_dict), timetablesFile, indent=2)
+
+                return
+
+            except Exception as e:
+                print(f"Error restoring backup file: {e}")
+                return
+        else:
+            print("Warning: Backup file not found. Exiting without modifications.")
+            return
 
     extract_timetables_and_teachers(DOM, semester, degree_programme_code, course_timetables_dict, teachers_dict)
 
@@ -647,6 +752,9 @@ def main():
     # Save the teachers information to a JSON file
     with open(f"../data/teachers.json", 'w') as teachersFile:
         json.dump(escape_dict_double_quotes(teachers_dict), teachersFile, indent=2)
+
+    # Guarantee json determinism: completely rebuild dictionary ordering before save
+    course_timetables_dict = get_deterministic_timetables(course_timetables_dict)
 
     # Save the course timetables to a JSON file
     with open(f"../data/timetables.json", 'w') as timetablesFile:
