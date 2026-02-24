@@ -176,6 +176,17 @@
             }
           }
         ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "c5892bf42eac27f3720899ef025482c4a0d09778117424bd25be0c48": "LA MORGIA MASSIMO"
+            },
+            "timeslot": "12 - 16",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
         "venerd\u00ec": [
           {
             "teachers": {
@@ -184,18 +195,6 @@
             "timeslot": "9 - 11",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            }
-          }
-        ],
-        "mercoled\u00ec": [
-          {
-            "teachers": {
-              "04be579af80ce4071b63bda30a71717fe853fe3df7bd03582ad070cd": "FRANCATI DANILO"
-            },
-            "timeslot": "12 - 16",
-            "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
             }
           }
         ]
@@ -211,6 +210,17 @@
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "4ebfbe5cb9997b03daadfbe341896cd80637c80fe101cc29787937c0": "FARALLI STEFANO"
+            },
+            "timeslot": "8 - 12",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
         "gioved\u00ec": [
           {
             "teachers": {
@@ -219,18 +229,6 @@
             "timeslot": "11 - 13",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
-          }
-        ],
-        "mercoled\u00ec": [
-          {
-            "teachers": {
-              "4ebfbe5cb9997b03daadfbe341896cd80637c80fe101cc29787937c0": "FARALLI STEFANO"
-            },
-            "timeslot": "8 - 12",
-            "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
-            }
           }
         ]
       }
@@ -404,6 +402,16 @@
         ]
       },
       "2": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "b911a093aa5200e6bee385aafccfb05592c8b08acc8d5024cb52ceb4": "MASELLI GAIA"
+            },
+            "timeslot": "14 - 17",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
         "gioved\u00ec": [
           {
             "teachers": {
@@ -423,20 +431,65 @@
             "classroomInfo": "Aula 4 (Edificio: RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
-        ],
-        "marted\u00ec": [
-          {
-            "teachers": {
-              "b911a093aa5200e6bee385aafccfb05592c8b08acc8d5024cb52ceb4": "MASELLI GAIA"
-            },
-            "timeslot": "14 - 17",
-            "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
-          }
         ]
       }
     },
     "code": "1015889"
+  },
+  "1020422_2": {
+    "subject": "SISTEMI OPERATIVI II MODULO",
+    "degree": "33503",
+    "channels": {
+      "2": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "a694c7295093c4c327056a69b52ca84415bfb8978639a3a32a24ba40": "CASALICCHIO EMILIANO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "a694c7295093c4c327056a69b52ca84415bfb8978639a3a32a24ba40": "CASALICCHIO EMILIANO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+            }
+          }
+        ]
+      },
+      "1": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1020422"
   },
   "1031337": {
     "subject": "BIOLOGIA COMPUTAZIONALE",
@@ -712,59 +765,1760 @@
     },
     "code": "10600494"
   },
-  "1020422_2": {
-    "subject": "SISTEMI OPERATIVI II MODULO",
-    "degree": "33503",
+  "1047613": {
+    "subject": "ADVANCED ALGORITHMS",
+    "degree": "33508",
     "channels": {
-      "1": {
+      "0": {
         "mercoled\u00ec": [
           {
             "teachers": {
-              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+              "401a2ee6cc7c26671171d1d7ff50a3c99b00490c62b9c58e0fd08073": "CHIERICHETTI FLAVIO"
             },
-            "timeslot": "16 - 19",
+            "timeslot": "11 - 13",
             "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
           }
         ],
         "venerd\u00ec": [
           {
             "teachers": {
-              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+              "401a2ee6cc7c26671171d1d7ff50a3c99b00490c62b9c58e0fd08073": "CHIERICHETTI FLAVIO"
             },
-            "timeslot": "9 - 12",
+            "timeslot": "14 - 17",
             "classrooms": {
-              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
           }
         ]
-      },
-      "2": {
-        "luned\u00ec": [
+      }
+    },
+    "code": "1047613"
+  },
+  "10612318": {
+    "subject": "ADVANCED ARCHITECTURES",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "1b04a8290feae16f8d78e35fa2adf42dd7668423a4bf33075cd4edcd": "MASSINI ANNALISA"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "1b04a8290feae16f8d78e35fa2adf42dd7668423a4bf33075cd4edcd": "MASSINI ANNALISA"
+            },
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10612318"
+  },
+  "1047614": {
+    "subject": "ADVANCED SOFTWARE ENGINEERING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "0367319152d06ab660b81cb70e940cfd03c7937775e6a32962e3dd9b": "BOTTONI PAOLO GASPARE"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "0367319152d06ab660b81cb70e940cfd03c7937775e6a32962e3dd9b": "BOTTONI PAOLO GASPARE"
+            },
+            "timeslot": "11 - 14",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047614"
+  },
+  "1047205": {
+    "subject": "CLOUD COMPUTING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
           {
             "teachers": {
               "a694c7295093c4c327056a69b52ca84415bfb8978639a3a32a24ba40": "CASALICCHIO EMILIANO"
             },
+            "timeslot": "12 - 14",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "a694c7295093c4c327056a69b52ca84415bfb8978639a3a32a24ba40": "CASALICCHIO EMILIANO"
+            },
+            "timeslot": "15 - 19",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047205"
+  },
+  "1047619": {
+    "subject": "CONCURRENT SYSTEMS",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "56d2725466cb5953459d7a47a23b8bbd320a15bedc6cef3ebf8306aa": "GORLA DANIELE"
+            },
             "timeslot": "16 - 19",
             "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "56d2725466cb5953459d7a47a23b8bbd320a15bedc6cef3ebf8306aa": "GORLA DANIELE"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047619"
+  },
+  "1047623": {
+    "subject": "DATA AND NETWORK SECURITY",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "1d7f2572efcc18caab227fcf62db9ca08022e850ac3f90bda80c0afb": "HITAJ DORJAN"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "1d7f2572efcc18caab227fcf62db9ca08022e850ac3f90bda80c0afb": "HITAJ DORJAN"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047623"
+  },
+  "10593236": {
+    "subject": "DEEP LEARNING AND APPLIED ARTIFICIAL INTELLIGENCE",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "39ac1000ee2d70ccee6238d30a628c9789f427784a6bc9fe600fe89a": "RODOLA' EMANUELE"
+            },
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
             }
           }
         ],
         "mercoled\u00ec": [
           {
             "teachers": {
-              "a694c7295093c4c327056a69b52ca84415bfb8978639a3a32a24ba40": "CASALICCHIO EMILIANO"
+              "39ac1000ee2d70ccee6238d30a628c9789f427784a6bc9fe600fe89a": "RODOLA' EMANUELE"
             },
-            "timeslot": "16 - 19",
+            "timeslot": "9 - 12",
             "classrooms": {
-              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
           }
         ]
       }
     },
-    "code": "1020422"
+    "code": "10593236"
+  },
+  "10607006": {
+    "subject": "FORMAL METHODS FOR AI-BASED SYSTEMS ENGINEERING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "03ed820157baa29c9671ff82b11d1fbda0f06d117976e3de3f67b766": "MANCINI TONI",
+              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "03ed820157baa29c9671ff82b11d1fbda0f06d117976e3de3f67b766": "MANCINI TONI",
+              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+            },
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10607006"
+  },
+  "1047629": {
+    "subject": "GRAPH THEORY",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "1bc0b942e1da31ffa70f9a65719bb0fc4331711da1602e311918d8e3": "WOLLAN PAUL JOSEPH"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "1bc0b942e1da31ffa70f9a65719bb0fc4331711da1602e311918d8e3": "WOLLAN PAUL JOSEPH"
+            },
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047629"
+  },
+  "1047630": {
+    "subject": "HUMAN COMPUTER INTERACTION ON THE WEB",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "d0ab2313982ae31335bf0ca9ec541c1e29015850654190038e83754d": "PANIZZI EMANUELE"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "d0ab2313982ae31335bf0ca9ec541c1e29015850654190038e83754d": "PANIZZI EMANUELE"
+            },
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047630"
+  },
+  "1047634": {
+    "subject": "INTERNET OF THINGS",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047634"
+  },
+  "10620665": {
+    "subject": "LOGICS AND REASONING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "c7916dc0ae86ebc56ee3b1499c08d6df6224338a7e762644db158c3e": "PERELLI GIUSEPPE",
+              "4fa70537ab8f306cdd60f6d50076b8863bc60228463838ddd83c46d2": "CARLUCCI LORENZO"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "c7916dc0ae86ebc56ee3b1499c08d6df6224338a7e762644db158c3e": "PERELLI GIUSEPPE",
+              "4fa70537ab8f306cdd60f6d50076b8863bc60228463838ddd83c46d2": "CARLUCCI LORENZO"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10620665"
+  },
+  "10620666": {
+    "subject": "METHODS IN COMPUTER SCIENCE EDUCATION",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "de96c9c8abadcc7aff887a9dab762c2ecdc4802c21962b01a2bf0887": "STERBINI ANDREA"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "19cb3112-33cb-4dfa-9e08-54f8ebc94b68": "Aula G0 (Edificio: RM115)"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "de96c9c8abadcc7aff887a9dab762c2ecdc4802c21962b01a2bf0887": "STERBINI ANDREA"
+            },
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10620666"
+  },
+  "1047639": {
+    "subject": "MULTIMODAL INTERACTION",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "e46974dc481037d0583a126f393319b8ed49a28a60be4e8194b1679d": "AVOLA DANILO",
+              "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "e46974dc481037d0583a126f393319b8ed49a28a60be4e8194b1679d": "AVOLA DANILO",
+              "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
+            },
+            "timeslot": "9 - 11",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047639"
+  },
+  "1038141": {
+    "subject": "NATURAL LANGUAGE PROCESSING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "a10b1c7ed1eb88f53aea8974f203e8f296af399a2977880ee858367d": "MASI IACOPO",
+              "4ebfbe5cb9997b03daadfbe341896cd80637c80fe101cc29787937c0": "FARALLI STEFANO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "a10b1c7ed1eb88f53aea8974f203e8f296af399a2977880ee858367d": "MASI IACOPO",
+              "4ebfbe5cb9997b03daadfbe341896cd80637c80fe101cc29787937c0": "FARALLI STEFANO"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1038141"
+  },
+  "10589555": {
+    "subject": "PRACTICAL NETWORK DEFENSE",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "cb07c5c1ada02c8f7a23ce6e20e20a7bf1365e3bc64f0a48c22bc1f5": "SPOGNARDI ANGELO"
+            },
+            "timeslot": "12 - 14",
+            "classrooms": {
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "cb07c5c1ada02c8f7a23ce6e20e20a7bf1365e3bc64f0a48c22bc1f5": "SPOGNARDI ANGELO"
+            },
+            "timeslot": "12 - 15",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10589555"
+  },
+  "1047636": {
+    "subject": "MATHEMATICAL LOGIC FOR COMPUTER SCIENCE",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "c7916dc0ae86ebc56ee3b1499c08d6df6224338a7e762644db158c3e": "PERELLI GIUSEPPE",
+              "4fa70537ab8f306cdd60f6d50076b8863bc60228463838ddd83c46d2": "CARLUCCI LORENZO"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "c7916dc0ae86ebc56ee3b1499c08d6df6224338a7e762644db158c3e": "PERELLI GIUSEPPE",
+              "4fa70537ab8f306cdd60f6d50076b8863bc60228463838ddd83c46d2": "CARLUCCI LORENZO"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047636"
+  },
+  "10589557": {
+    "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: ANALYSIS",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "de96c9c8abadcc7aff887a9dab762c2ecdc4802c21962b01a2bf0887": "STERBINI ANDREA"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "19cb3112-33cb-4dfa-9e08-54f8ebc94b68": "Aula G0 (Edificio: RM115)"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "de96c9c8abadcc7aff887a9dab762c2ecdc4802c21962b01a2bf0887": "STERBINI ANDREA"
+            },
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10589557"
+  },
+  "1055055": {
+    "subject": "CYBER AND COMPUTER LAW",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "5abed536d1e74423ec4c390c9efd0c727ec17d34f4c03874c27479af": "AVITABILE LUISA"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "5abed536d1e74423ec4c390c9efd0c727ec17d34f4c03874c27479af": "AVITABILE LUISA"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1055055"
+  },
+  "1055047": {
+    "subject": "ECONOMICS OF TECHNOLOGY AND MANAGEMENT",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "3097fd484e15641601eb5b871b61a77a7966ddaf7c1716fbf749a66c": "D'ADAMO IDIANO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "3097fd484e15641601eb5b871b61a77a7966ddaf7c1716fbf749a66c": "D'ADAMO IDIANO"
+            },
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1055047"
+  },
+  "1055682": {
+    "subject": "ETHICAL HACKING",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "70769f6c7421a78996077ee50349a49bd73720aa32a34f33f86c9193": "MANCINI LUIGI VINCENZO"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "70769f6c7421a78996077ee50349a49bd73720aa32a34f33f86c9193": "MANCINI LUIGI VINCENZO"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "70769f6c7421a78996077ee50349a49bd73720aa32a34f33f86c9193": "MANCINI LUIGI VINCENZO"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1055682"
+  },
+  "1054962": {
+    "subject": "SECURE COMPUTATION",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "a1e9700ddc085d2684fc2c1cda6496b4b18e59d00f333ec058d5a7b8": "VISCONTI IVAN"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "a1e9700ddc085d2684fc2c1cda6496b4b18e59d00f333ec058d5a7b8": "VISCONTI IVAN"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "19cb3112-33cb-4dfa-9e08-54f8ebc94b68": "Aula G0 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1054962"
+  },
+  "1054963": {
+    "subject": "SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "161ab7fa4b64110aef03808cb13cfd36cedeb6f1d49730eebad9099f": "LIBERATI FRANCESCO"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "161ab7fa4b64110aef03808cb13cfd36cedeb6f1d49730eebad9099f": "LIBERATI FRANCESCO"
+            },
+            "timeslot": "12 - 15",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1054963"
+  },
+  "AAF1803": {
+    "subject": "CYBER SECURITY SEMINARS",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "70769f6c7421a78996077ee50349a49bd73720aa32a34f33f86c9193": "MANCINI LUIGI VINCENZO"
+            },
+            "timeslot": "16 - 20",
+            "classrooms": {
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "AAF1803"
+  },
+  "10616549": {
+    "subject": "ADVANCED CRYPTOGRAPHY",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "a1e9700ddc085d2684fc2c1cda6496b4b18e59d00f333ec058d5a7b8": "VISCONTI IVAN"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "792e5ab2-58db-44ed-8723-8374acee0da0": "Aula A3 Via Ariosto, 25"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "a1e9700ddc085d2684fc2c1cda6496b4b18e59d00f333ec058d5a7b8": "VISCONTI IVAN"
+            },
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 Via Ariosto, 25"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10616549"
+  },
+  "10600449": {
+    "subject": "ADVANCED INFORMATION SYSTEMS SECURITY AND BLOCKCHAIN",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "6ff4ba2e4c4d78e9d49b44c20727bab8ef65534ccde90e97df0d6422": "LAZZERETTI RICCARDO"
+            },
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 Via Ariosto, 25"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "6ff4ba2e4c4d78e9d49b44c20727bab8ef65534ccde90e97df0d6422": "LAZZERETTI RICCARDO"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "bdefdb67-cc5f-4031-a58d-858f26e3d33d": "Aula A7 Via Ariosto, 25"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10600449"
+  },
+  "1047197": {
+    "subject": "DATA MANAGEMENT FOR DATA SCIENCE",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "b8ce18660a487f6576f571621c66cfdc5c8b112560d9433892c7562a": "LEMBO DOMENICO",
+              "f6f544ea031b5756b8c51c0663c8d4051da94ff9fe9595281df731af": "ROSATI RICCARDO"
+            },
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "267bbb25-1c7a-421c-ab60-ef0a6e29aece": "Aula B2 (Edificio: RM102)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "b8ce18660a487f6576f571621c66cfdc5c8b112560d9433892c7562a": "LEMBO DOMENICO",
+              "f6f544ea031b5756b8c51c0663c8d4051da94ff9fe9595281df731af": "ROSATI RICCARDO"
+            },
+            "timeslot": "15 - 19",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047197"
+  },
+  "1047222": {
+    "subject": "EFFICIENCY AND PRODUCTIVITY ANALYSIS",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "09ad21de38199739b33dbc9909edab5e9400fa5347c3c3793de86a90": "MAGGI BERNARDO"
+            },
+            "timeslot": "14 - 18",
+            "classrooms": {
+              "e0f2f5db-bcc2-45d5-932b-f96267f96575": "Aula VI (Edificio: CU002)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "09ad21de38199739b33dbc9909edab5e9400fa5347c3c3793de86a90": "MAGGI BERNARDO"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "e0f2f5db-bcc2-45d5-932b-f96267f96575": "Aula VI (Edificio: CU002)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047222"
+  },
+  "10621172": {
+    "subject": "FUNDAMENTALS OF NETWORKING AND SIGNAL PROCESSING",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "0f1032e1a67fd22ad52f5e6c704df4131d8e29231a5119a7f98aa105": "ERAMO VINCENZO",
+              "4b0e4fbd4999e8aaa21b213b3f5423d3b77aba584d204370113fc635": "COLONNESE STEFANIA"
+            },
+            "timeslot": "12 - 15",
+            "classrooms": {
+              "267bbb25-1c7a-421c-ab60-ef0a6e29aece": "Aula B2 (Edificio: RM102)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "0f1032e1a67fd22ad52f5e6c704df4131d8e29231a5119a7f98aa105": "ERAMO VINCENZO",
+              "4b0e4fbd4999e8aaa21b213b3f5423d3b77aba584d204370113fc635": "COLONNESE STEFANIA"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "0f1032e1a67fd22ad52f5e6c704df4131d8e29231a5119a7f98aa105": "ERAMO VINCENZO",
+              "4b0e4fbd4999e8aaa21b213b3f5423d3b77aba584d204370113fc635": "COLONNESE STEFANIA"
+            },
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10621172"
+  },
+  "10621173": {
+    "subject": "NATURAL LANGUAGE PROCESSING AND TEXT MINING",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "2cbb4122228c5e76f2afd7843cab5d2faf3f6a2f23afbed910e573d7": "SILVESTRI FABRIZIO",
+              "4105fcca79634e057caa6828b1663d8d21f44c9a8f551f66c57310a7": "BECCHETTI LUCA"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "2cbb4122228c5e76f2afd7843cab5d2faf3f6a2f23afbed910e573d7": "SILVESTRI FABRIZIO",
+              "4105fcca79634e057caa6828b1663d8d21f44c9a8f551f66c57310a7": "BECCHETTI LUCA"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "d90b7d49-919d-4e78-839c-db91892e3ac6": "Aula A4 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10621173"
+  },
+  "10606725": {
+    "subject": "OPTIMIZATION METHODS FOR DATA SCIENCE",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "05fd5b57cce9673317cab2c93728addbdd36ee8952dc4d91aea63891": "SALZO SAVERIO"
+            },
+            "timeslot": "17 - 20",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "05fd5b57cce9673317cab2c93728addbdd36ee8952dc4d91aea63891": "SALZO SAVERIO"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "bdefdb67-cc5f-4031-a58d-858f26e3d33d": "Aula A7 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10606725"
+  },
+  "1047209": {
+    "subject": "QUANTITATIVE MODELS FOR ECONOMIC ANALYSIS AND MANAGEMENT",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "b038c0bfb696668b1bfa1a4dd217cad43060b93ef961f694f5439679": "DARAIO CINZIA"
+            },
+            "timeslot": "8 - 12",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "b038c0bfb696668b1bfa1a4dd217cad43060b93ef961f694f5439679": "DARAIO CINZIA"
+            },
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047209"
+  },
+  "10621099": {
+    "subject": "STATISTICAL MACHINE LEARNING",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "1b749331b4241719b72be3d21a0c920aaf4ee73f0afd73647a1f295b": "BRUTTI PIERPAOLO"
+            },
+            "timeslot": "8 - 12",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "1b749331b4241719b72be3d21a0c920aaf4ee73f0afd73647a1f295b": "BRUTTI PIERPAOLO"
+            },
+            "timeslot": "8 - 10",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10621099"
+  },
+  "10615930": {
+    "subject": "STOCHASTIC PROCESSES FOR DATA SCIENCE",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "796348dd17181b0e5bc5b7ff12602f4bfdbc419b7338730911747e78": "SCALAS ENRICO"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "796348dd17181b0e5bc5b7ff12602f4bfdbc419b7338730911747e78": "SCALAS ENRICO"
+            },
+            "timeslot": "15 - 19",
+            "classrooms": {
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10615930"
+  },
+  "1047218": {
+    "subject": "EARTH OBSERVATION DATA ANALYSIS",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "1f88d3c450db0f7cc8e954feea81a05b3e1f424005e410c38accdb8d": "NUNZIATA FERDINANDO"
+            },
+            "timeslot": "11 - 14",
+            "classrooms": {
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "1f88d3c450db0f7cc8e954feea81a05b3e1f424005e410c38accdb8d": "NUNZIATA FERDINANDO"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047218"
+  },
+  "1047212": {
+    "subject": "Economics of Network Industries",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "cb9abcdfd622d0b1bb07b235dc3b6326d00a43518e0fa65bca8b389e": "REVERBERI PIERFRANCESCO"
+            },
+            "timeslot": "15 - 18",
+            "classrooms": {
+              "8048db6d-ea7a-4478-8b6b-e7f6c7d2ed2d": "Aula 7 Via Eudossiana, 18"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "cb9abcdfd622d0b1bb07b235dc3b6326d00a43518e0fa65bca8b389e": "REVERBERI PIERFRANCESCO"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "267bbb25-1c7a-421c-ab60-ef0a6e29aece": "Aula B2 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047212"
+  },
+  "10616533": {
+    "subject": "GRAPH MINING AND APPLICATIONS",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "f2851c21b90cd4c1e1d818c6d9b658767d01dc157bd0437a6ade3312": "ANAGNOSTOPOULOS ARISTIDIS"
+            },
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "792e5ab2-58db-44ed-8723-8374acee0da0": "Aula A3 (Edificio: RM102)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "f2851c21b90cd4c1e1d818c6d9b658767d01dc157bd0437a6ade3312": "ANAGNOSTOPOULOS ARISTIDIS"
+            },
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "792e5ab2-58db-44ed-8723-8374acee0da0": "Aula A3 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10616533"
+  },
+  "1047215": {
+    "subject": "INTELLECTUAL PROPERTY COMPETITION AND DATA PROTECTION LAW",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "b70440297f6627f9dd71d2c33864950a9f1686dfdccbf6385a0f04ec": "ORLANDO SALVATORE"
+            },
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "b70440297f6627f9dd71d2c33864950a9f1686dfdccbf6385a0f04ec": "ORLANDO SALVATORE"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047215"
+  },
+  "1056023": {
+    "subject": "SMART ENVIRONMENTS",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "4b0e4fbd4999e8aaa21b213b3f5423d3b77aba584d204370113fc635": "COLONNESE STEFANIA",
+              "1f83a5408282953c50f215c4fad15d975dfc7d64bb6e3c04eae31c0f": "SPADACCINO PIETRO"
+            },
+            "timeslot": "8 - 12",
+            "classrooms": {
+              "d90b7d49-919d-4e78-839c-db91892e3ac6": "Aula A4 (Edificio: RM102)"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "4b0e4fbd4999e8aaa21b213b3f5423d3b77aba584d204370113fc635": "COLONNESE STEFANIA",
+              "1f83a5408282953c50f215c4fad15d975dfc7d64bb6e3c04eae31c0f": "SPADACCINO PIETRO"
+            },
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "d90b7d49-919d-4e78-839c-db91892e3ac6": "Aula A4 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1056023"
+  },
+  "10621178_2": {
+    "subject": "FUNDAMENTALS OF STATISTICAL LEARNING II",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "f78e65ee0942edd9eecca37d6e90c402f20fe40f876ee5cb178105db": "TARDELLA LUCA"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10621178"
+  },
+  "10600197": {
+    "subject": "DATA DRIVEN ECONOMICS",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "e1d8136293f36d389d14ce2f01ec8e8a64deab877e26c7d44f6c60d2": "MARZANO RICCARDO"
+            },
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "8048db6d-ea7a-4478-8b6b-e7f6c7d2ed2d": "Aula 7 Via Eudossiana, 18"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "e1d8136293f36d389d14ce2f01ec8e8a64deab877e26c7d44f6c60d2": "MARZANO RICCARDO"
+            },
+            "timeslot": "15 - 18",
+            "classrooms": {
+              "8048db6d-ea7a-4478-8b6b-e7f6c7d2ed2d": "Aula 7 Via Eudossiana, 18"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10600197"
+  },
+  "10616532": {
+    "subject": "ECONOMICS AND COMPUTATION",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "3c2d5b0d3bd0d4575e15f53155c97320f9fd7546dd1a927231e29029": "LEONARDI STEFANO",
+              "c50724273ffdbe4d2268abec20bc0cfd6bd448f170dfb42babe48bb4": "BRUESTLE JOHANNES"
+            },
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 Via Ariosto, 25"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "3c2d5b0d3bd0d4575e15f53155c97320f9fd7546dd1a927231e29029": "LEONARDI STEFANO",
+              "c50724273ffdbe4d2268abec20bc0cfd6bd448f170dfb42babe48bb4": "BRUESTLE JOHANNES"
+            },
+            "timeslot": "12 - 15",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 Via Ariosto, 25"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10616532"
+  },
+  "10589730": {
+    "subject": "GEOMATICS AND GEOINFORMATION",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "c4ab26f1b1dc2ac39cb930ee0713f4189efcbefc9b10498b2d160a7e": "CRESPI MATTIA GIOVANNI"
+            },
+            "timeslot": "8 - 11",
+            "classroomInfo": "Aula 47 Via Eudossiana, 18",
+            "classroomUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "c4ab26f1b1dc2ac39cb930ee0713f4189efcbefc9b10498b2d160a7e": "CRESPI MATTIA GIOVANNI"
+            },
+            "timeslot": "11 - 14",
+            "classroomInfo": "Aula 4 Via Eudossiana, 18",
+            "classroomUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+          }
+        ]
+      }
+    },
+    "code": "10589730"
+  },
+  "1049269": {
+    "subject": "ALGORITHMS",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "401a2ee6cc7c26671171d1d7ff50a3c99b00490c62b9c58e0fd08073": "CHIERICHETTI FLAVIO"
+            },
+            "timeslot": "11 - 13",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "401a2ee6cc7c26671171d1d7ff50a3c99b00490c62b9c58e0fd08073": "CHIERICHETTI FLAVIO"
+            },
+            "timeslot": "8 - 11",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "1049269"
+  },
+  "10595099_2": {
+    "subject": "CALCULUS UNIT 2",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "854ad85fd374fa8dbcfe12385cb301cdeba0817ebc21c653fc5c61a8": "BIRINDELLI ISABELLA"
+            },
+            "timeslot": "11 - 13",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "854ad85fd374fa8dbcfe12385cb301cdeba0817ebc21c653fc5c61a8": "BIRINDELLI ISABELLA"
+            },
+            "timeslot": "8 - 11",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595099"
+  },
+  "10595546_2": {
+    "subject": "COMPUTER ARCHITECTURE UNIT 2",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "b88986f842b5c00afe548279b3eec4a640918f8270a87b49c5d0e056": "MEI ALESSANDRO"
+            },
+            "timeslot": "11 - 13",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "b88986f842b5c00afe548279b3eec4a640918f8270a87b49c5d0e056": "MEI ALESSANDRO"
+            },
+            "timeslot": "10 - 13",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595546"
+  },
+  "10595523": {
+    "subject": "PHYSICS",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "18589bad163db57d144db930f02b27e9159c5801e5be8c268c3d55c3": "SCHLEICHER DOMINIK REINHOLD GEORG"
+            },
+            "timeslot": "8 - 11",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "18589bad163db57d144db930f02b27e9159c5801e5be8c268c3d55c3": "SCHLEICHER DOMINIK REINHOLD GEORG"
+            },
+            "timeslot": "11 - 13",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595523"
+  },
+  "10600241": {
+    "subject": "PROGRAMMING 2",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "d78c07674587ddd7ce68859a88057950c43c4a764b11412a1ccee5da": "CENCIARELLI PIETRO"
+            },
+            "timeslot": "8 - 11",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "d78c07674587ddd7ce68859a88057950c43c4a764b11412a1ccee5da": "CENCIARELLI PIETRO"
+            },
+            "timeslot": "8 - 10",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10600241"
+  },
+  "10595610": {
+    "subject": "AI LAB: COMPUTER VISION AND NLP",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "e46974dc481037d0583a126f393319b8ed49a28a60be4e8194b1679d": "AVOLA DANILO"
+            },
+            "timeslot": "17 - 19",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "e46974dc481037d0583a126f393319b8ed49a28a60be4e8194b1679d": "AVOLA DANILO"
+            },
+            "timeslot": "16 - 19",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595610"
+  },
+  "10595618_1": {
+    "subject": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING UNIT I",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "51f8a826f48cc117e58434915b54a21b6fedfd426dec0087a3de2826": "GALASSO FABIO"
+            },
+            "timeslot": "13 - 15",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "51f8a826f48cc117e58434915b54a21b6fedfd426dec0087a3de2826": "GALASSO FABIO"
+            },
+            "timeslot": "13 - 16",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595618"
+  },
+  "10595618_2": {
+    "subject": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING UNIT II",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "a10b1c7ed1eb88f53aea8974f203e8f296af399a2977880ee858367d": "MASI IACOPO"
+            },
+            "timeslot": "13 - 16",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "a10b1c7ed1eb88f53aea8974f203e8f296af399a2977880ee858367d": "MASI IACOPO"
+            },
+            "timeslot": "13 - 15",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595618"
+  },
+  "10595617_2": {
+    "subject": "DATA MANAGEMENT AND ANALYSIS UNIT II",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "d2de0549580acf978f938219f8c90d7529a2a8bf5616c9a18cbb134a": "QUATTROCIOCCHI WALTER"
+            },
+            "timeslot": "16 - 19",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "d2de0549580acf978f938219f8c90d7529a2a8bf5616c9a18cbb134a": "QUATTROCIOCCHI WALTER"
+            },
+            "timeslot": "15 - 17",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595617"
+  },
+  "1055043": {
+    "subject": "STATISTICS",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "7214f143e19aed4b58c9743e09a3834b889f42e50a406aad74b8adcb": "DE VITO ROBERTA"
+            },
+            "timeslot": "14 - 17",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "7214f143e19aed4b58c9743e09a3834b889f42e50a406aad74b8adcb": "DE VITO ROBERTA"
+            },
+            "timeslot": "15 - 17",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "1055043"
+  },
+  "10595536": {
+    "subject": "BUSINESS AND COMPUTER SCIENCE",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595536"
+  },
+  "10595535": {
+    "subject": "HUMAN COMPUTER INTERACTION",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "d0ab2313982ae31335bf0ca9ec541c1e29015850654190038e83754d": "PANIZZI EMANUELE"
+            },
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "d0ab2313982ae31335bf0ca9ec541c1e29015850654190038e83754d": "PANIZZI EMANUELE"
+            },
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595535"
+  },
+  "10595537": {
+    "subject": "LAW AND COMPUTER SCIENCE",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "e99edbc49e0fda47418d2ff1519111cfb300f81c25730557016ebbe3": "SIGISMONDI IRENE"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "e99edbc49e0fda47418d2ff1519111cfb300f81c25730557016ebbe3": "SIGISMONDI IRENE"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595537"
+  },
+  "10595533": {
+    "subject": "OPTIMIZATION",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "1bc0b942e1da31ffa70f9a65719bb0fc4331711da1602e311918d8e3": "WOLLAN PAUL JOSEPH"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "1bc0b942e1da31ffa70f9a65719bb0fc4331711da1602e311918d8e3": "WOLLAN PAUL JOSEPH"
+            },
+            "timeslot": "16 - 18",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595533"
   }
 }

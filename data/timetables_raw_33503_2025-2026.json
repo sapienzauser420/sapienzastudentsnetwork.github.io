@@ -268,6 +268,22 @@
             ]
           },
           {
+            "building": "Edificio: RM025",
+            "course": "1015884",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "12:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "METODOLOGIE DI PROGRAMMAZIONE",
+            "teachers": [
+              "LA MORGIA MASSIMO"
+            ]
+          },
+          {
             "building": "Edificio: RM018",
             "course": "10620599",
             "room": "Aula 3",
@@ -349,6 +365,22 @@
                 "day": "gioved\u00ec",
                 "from": "11:00",
                 "to": "13:00"
+              }
+            ],
+            "subject": "METODOLOGIE DI PROGRAMMAZIONE",
+            "teachers": [
+              "FARALLI STEFANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1015884",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "12:00"
               }
             ],
             "subject": "METODOLOGIE DI PROGRAMMAZIONE",
@@ -814,6 +846,22 @@
             "subject": "RETI DI ELABORATORI",
             "teachers": [
               "MASELLI GAIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1020422",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "SISTEMI OPERATIVI II MODULO",
+            "teachers": [
+              "CASALICCHIO EMILIANO"
             ]
           }
         ]
