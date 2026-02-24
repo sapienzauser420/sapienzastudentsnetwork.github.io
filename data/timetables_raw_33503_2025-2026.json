@@ -284,6 +284,22 @@
             ]
           },
           {
+            "building": "Edificio: RM025",
+            "course": "1015884",
+            "room": "Aula informatica 16 ",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "12:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "METODOLOGIE DI PROGRAMMAZIONE",
+            "teachers": [
+              "LA MORGIA MASSIMO"
+            ]
+          },
+          {
             "building": "Edificio: RM018",
             "course": "10620599",
             "room": "Aula 3",
@@ -376,6 +392,22 @@
             "building": "Edificio: RM025",
             "course": "1015884",
             "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "METODOLOGIE DI PROGRAMMAZIONE",
+            "teachers": [
+              "FARALLI STEFANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1015884",
+            "room": "Aula informatica 16 ",
             "schedule": [
               {
                 "day": "mercoled\u00ec",
@@ -774,6 +806,38 @@
             "teachers": [
               "CHECCO ALESSANDRO"
             ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1020422",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "SISTEMI OPERATIVI II MODULO",
+            "teachers": [
+              "ZULIANI PAOLO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1020422",
+            "room": "Aula informatica 17",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "SISTEMI OPERATIVI II MODULO",
+            "teachers": [
+              "ZULIANI PAOLO"
+            ]
           }
         ]
       },
@@ -855,6 +919,22 @@
             "schedule": [
               {
                 "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "SISTEMI OPERATIVI II MODULO",
+            "teachers": [
+              "CASALICCHIO EMILIANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1020422",
+            "room": "Aula informatica 16 ",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
                 "from": "16:00",
                 "to": "19:00"
               }
