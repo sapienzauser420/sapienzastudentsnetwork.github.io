@@ -14,6 +14,7 @@
     {{ $courseCodeWithUnit := . }}
 
     {{ $courseTimetables := index $dataTimetables $courseCodeWithUnit }}
+    {{ $courseTimetables_ := index $dataCourses $courseCodeWithUnit }}
     {{ $courseHardcodedTimetables := index $dataHardcodedTimetables $courseCodeWithUnit }}
 
     {{ if or $courseTimetables $courseHardcodedTimetables }}
@@ -21,6 +22,7 @@
         {{ $hardcodedTimetableChannels := index $courseHardcodedTimetables "channels" }}
 
         {{ $courseSubject := index $courseTimetables "subject" }}
+        {{ $courseSubject_ := index $courseTimetables_ "name" }}
         {{ $courseCode := index $courseTimetables "code" }}
         {{ $courseChannels := dict }}
 
@@ -40,11 +42,11 @@
         {{ if $courseCode }}
             <div id="{{ $courseCodeWithUnit }}" class="{{ if $defaultHidden }}hidden{{ end }}">
 
-                <h3>{{ $courseCode }} - {{ $courseSubject }}</h3>
+                <h3>{{ $courseCode }} - {{ $courseSubject_ }}</h3>
 
                 {{ $telegram_group := index $dataCourses $courseCodeWithUnit "tgGroup" }}
                 {{ if $telegram_group }}
-                    {{ $courseSubjectPascalCase := $courseSubject | lower | title }}
+                    {{ $courseSubjectPascalCase := $courseSubject_ | lower | title }}
                     {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "a'" "à" }}
                     {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "i'" "ì" }}
                     {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "o'" "ò" }}
