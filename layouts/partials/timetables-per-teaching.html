@@ -15,6 +15,7 @@
 
     {{ $courseTimetables := index $dataTimetables $courseCodeWithUnit }}
     {{ $courseTimetables_ := index $dataCourses $courseCodeWithUnit }}
+    {{ $courseData := index $dataCourses $courseCodeWithUnit }}
     {{ $courseHardcodedTimetables := index $dataHardcodedTimetables $courseCodeWithUnit }}
 
     {{ if or $courseTimetables $courseHardcodedTimetables }}
@@ -42,7 +43,7 @@
         {{ if $courseCode }}
             <div id="{{ $courseCodeWithUnit }}" class="{{ if $defaultHidden }}hidden{{ end }}">
 
-                <h3>{{ $courseCode }} - {{ $courseSubject_ }}</h3>
+                <h3>{{ $courseCode }} - {{ $courseSubject_ }} - ({{ index $courseData "shortName"}}) - CFU: {{ index $courseData "cfu"}}</h3>
 
                 {{ $telegram_group := index $dataCourses $courseCodeWithUnit "tgGroup" }}
                 {{ if $telegram_group }}
