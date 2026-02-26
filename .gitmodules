@@ -12,4 +12,4 @@
 	url = https://github.com/sapienzastudentsnetwork/ssn-website-33526.git
 [submodule "themes/hugo-book"]
 	path = themes/hugo-book
-	url = https://github.com/alex-shpak/hugo-book
+	url = https://github.com/sapienzauser420/hugo-book
