@@ -1052,7 +1052,7 @@
         "marted\u00ec": [
           {
             "teachers": {
-              "401a2ee6cc7c26671171d1d7ff50a3c99b00490c62b9c58e0fd08073": "CHIERICHETTI FLAVIO"
+              "04be579af80ce4071b63bda30a71717fe853fe3df7bd03582ad070cd": "FRANCATI DANILO"
             },
             "timeslot": "11 - 13",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
@@ -1062,7 +1062,7 @@
         "venerd\u00ec": [
           {
             "teachers": {
-              "401a2ee6cc7c26671171d1d7ff50a3c99b00490c62b9c58e0fd08073": "CHIERICHETTI FLAVIO"
+              "04be579af80ce4071b63bda30a71717fe853fe3df7bd03582ad070cd": "FRANCATI DANILO"
             },
             "timeslot": "8 - 11",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
@@ -1580,7 +1580,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "d043d6be-c18b-4866-98ab-f41ee5f1e7f8": "PENNESI ALICE"
+            },
             "timeslot": "14 - 16",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -1589,7 +1591,9 @@
         ],
         "gioved\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "d043d6be-c18b-4866-98ab-f41ee5f1e7f8": "PENNESI ALICE"
+            },
             "timeslot": "9 - 12",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
@@ -1808,7 +1812,7 @@
     "code": "10596283"
   },
   "10600197": {
-    "subject": "DATA DRIVEN ECONOMICS",
+    "subject": "Data Driven Economics",
     "degree": "33519",
     "channels": {
       "0": {
@@ -1819,7 +1823,7 @@
             },
             "timeslot": "15 - 17",
             "classrooms": {
-              "8048db6d-ea7a-4478-8b6b-e7f6c7d2ed2d": "Aula 7 Via Eudossiana, 18"
+              "a9e2260b-39ef-4279-ae3d-61b9d7d8e927": "Aula 1 (Edificio: RM031)"
             }
           }
         ],
@@ -1830,7 +1834,7 @@
             },
             "timeslot": "15 - 18",
             "classrooms": {
-              "8048db6d-ea7a-4478-8b6b-e7f6c7d2ed2d": "Aula 7 Via Eudossiana, 18"
+              "89b27605-769d-4b35-b337-1b6651d59c30": "Aula 11 (Edificio: RM031)"
             }
           }
         ]
