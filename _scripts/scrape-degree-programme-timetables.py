@@ -550,6 +550,65 @@ def apply_manual_overrides(course_timetables_dict, degree_programme_code):
     for course_code, course_data in course_timetables_dict.items():
         course_degree = course_data.get("degree")
 
+        # 1055055 - CYBER AND COMPUTER LAW
+        if course_code == "1055055":
+            from datetime import timedelta
+            now = datetime.now()
+            
+            # Determine the "Reference Monday" for the target week.
+            # If it's Friday evening (after 6:00 PM) or the weekend, we target the following week.
+            if (now.weekday() == 4 and now.hour >= 18) or now.weekday() > 4:
+                # Calculate the Monday of the next week
+                ref_monday = (now + timedelta(days=(7 - now.weekday()))).date()
+            else:
+                # Target the Monday of the current week
+                ref_monday = (now - timedelta(days=now.weekday())).date()
+            
+            # Define specific exception dates
+            # Monday exceptions: April 13th and May 4th
+            # Tuesday exceptions: March 17th and April 21st
+            monday_exceptions = [(4, 13), (5, 4)]
+            tuesday_exceptions = [(3, 17), (4, 21)]
+
+            for channel_id, channel_data in course_data.get("channels", {}).items():
+                # MONDAY handling (Target: Room 2 L or Room 201)
+                if "lunedì" in channel_data:
+                    for schedule in channel_data["lunedì"]:
+                        if "classrooms" in schedule and len(schedule["classrooms"]) == 2:
+                            # Check if the reference week contains one of the Monday exceptions
+                            is_exception_week = any(ref_monday.month == m and ref_monday.day == d for m, d in monday_exceptions)
+                            
+                            if is_exception_week:
+                                # Monday Exception -> Room 201
+                                schedule["classrooms"] = {
+                                    "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+                                }
+                            else:
+                                # Monday Default -> Room 2 L
+                                schedule["classrooms"] = {
+                                    "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                                }
+            
+                # TUESDAY handling (Target: Room 101 or Aula Magna)
+                if "martedì" in channel_data:
+                    for schedule in channel_data["martedì"]:
+                        if "classrooms" in schedule and len(schedule["classrooms"]) == 2:
+                            # For Tuesday (March 17 / April 21), the ref_monday would be March 16 / April 20.
+                            # We check if the Tuesday of the reference week matches the exception dates.
+                            ref_tuesday = ref_monday + timedelta(days=1)
+                            is_exception_week = any(ref_tuesday.month == m and ref_tuesday.day == d for m, d in tuesday_exceptions)
+
+                            if is_exception_week:
+                                # Tuesday Exception -> Aula Magna
+                                schedule["classrooms"] = {
+                                    "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+                                }
+                            else:
+                                # Tuesday Default -> Room 101
+                                schedule["classrooms"] = {
+                                    "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
+                                }
+
         # Skip courses that do not belong to the current degree programme,
         # unless both are master degrees
         if (
