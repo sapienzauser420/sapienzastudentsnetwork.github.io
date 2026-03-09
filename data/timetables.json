@@ -332,6 +332,37 @@
     },
     "code": "1020422"
   },
+  "1021828": {
+    "subject": "MATEMATICA DISCRETA",
+    "degree": "33503",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "be67ada94f05ddff2f83ea03c356a47a43ff62b65a3ac0ba70251f21": "CAPPARELLI STEFANO"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "be67ada94f05ddff2f83ea03c356a47a43ff62b65a3ac0ba70251f21": "CAPPARELLI STEFANO"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1021828"
+  },
   "1022262": {
     "subject": "INTELLIGENZA ARTIFICIALE",
     "degree": "33503",
@@ -1187,8 +1218,7 @@
             },
             "timeslot": "10 - 13",
             "classrooms": {
-              "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)",
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+              "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
             }
           }
         ]
@@ -1345,7 +1375,7 @@
             },
             "timeslot": "10 - 13",
             "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
             }
           }
         ],
