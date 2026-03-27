@@ -962,8 +962,10 @@
       "0": {
         "luned\u00ec": [
           {
-            "teachers": {},
-            "timeslot": "10 - 13",
+            "teachers": {
+              "fabec294-0311-42a3-ab85-2c6fbac8370f": "Vegni Anna Maria"
+            },
+            "timeslot": "12 - 14",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
             }
@@ -972,9 +974,9 @@
         "venerd\u00ec": [
           {
             "teachers": {},
-            "timeslot": "17 - 19",
+            "timeslot": "16 - 19",
             "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
           }
         ]
