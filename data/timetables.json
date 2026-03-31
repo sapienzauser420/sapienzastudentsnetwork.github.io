@@ -777,7 +777,7 @@
         "mercoled\u00ec": [
           {
             "teachers": {
-              "401a2ee6cc7c26671171d1d7ff50a3c99b00490c62b9c58e0fd08073": "CHIERICHETTI FLAVIO"
+              "984f3c6a-d9a9-4ff7-8012-416285e194d3": "Giacchini Mirko"
             },
             "timeslot": "11 - 13",
             "classrooms": {
@@ -788,7 +788,7 @@
         "venerd\u00ec": [
           {
             "teachers": {
-              "401a2ee6cc7c26671171d1d7ff50a3c99b00490c62b9c58e0fd08073": "CHIERICHETTI FLAVIO"
+              "984f3c6a-d9a9-4ff7-8012-416285e194d3": "Giacchini Mirko"
             },
             "timeslot": "14 - 17",
             "classrooms": {
@@ -805,6 +805,17 @@
     "degree": "33508",
     "channels": {
       "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "0367319152d06ab660b81cb70e940cfd03c7937775e6a32962e3dd9b": "BOTTONI PAOLO GASPARE"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "19cb3112-33cb-4dfa-9e08-54f8ebc94b68": "Aula G0 (Edificio: RM115)"
+            }
+          }
+        ],
         "mercoled\u00ec": [
           {
             "teachers": {
@@ -973,7 +984,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "fabec294-0311-42a3-ab85-2c6fbac8370f": "Vegni Anna Maria"
+            },
             "timeslot": "16 - 19",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
