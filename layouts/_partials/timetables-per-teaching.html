@@ -276,3 +276,17 @@
         {{ end }}
     {{ end }}
 {{ end }}
+
+<script>
+    addEventListener('DOMContentLoaded', () => {
+        const day = new Date().getDay();
+        if (day > 0 && day < 6) {
+            document.querySelectorAll('table').forEach(table => {
+                if (table.querySelector('thead th:nth-child(6)')) {
+                    table.querySelectorAll(`th:nth-child(${day + 1}), td:nth-child(${day + 1})`)
+                        .forEach(el => el.style.backgroundColor = 'rgba(102, 187, 255, 0.1)');
+                }
+            });
+        }
+    });
+</script>
