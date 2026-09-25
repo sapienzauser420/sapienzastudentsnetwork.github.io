@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23T08:39:57Z",
-  "source_commit": "23a900d7ecc1e881d68c419f5327606b4a371cdb",
+  "generated_at": "2026-09-25T08:50:10Z",
+  "source_commit": "f404e56d1b93dbff88ead06f1c67a4146e3706b6",
   "contributors": [
     {
       "name": "matypist",
@@ -135,7 +135,7 @@
     {
       "name": "neoSnakex34",
       "github": "https://github.com/neoSnakex34",
-      "avatar": "https://avatars.githubusercontent.com/u/97003970?v=4",
+      "avatar": "https://github.com/neoSnakex34.png?size=160",
       "initials": "N",
       "unresolved": false,
       "commits": 4,
@@ -229,11 +229,11 @@
       "avatar": "https://avatars.githubusercontent.com/u/235279346?v=4",
       "initials": "S",
       "unresolved": false,
-      "commits": 1,
-      "additions": 23,
-      "deletions": 12,
-      "effective_lines": 35,
-      "score": 21.9,
+      "commits": 2,
+      "additions": 44,
+      "deletions": 13,
+      "effective_lines": 57,
+      "score": 26.7,
       "rank": 18
     },
     {
@@ -291,7 +291,7 @@
     {
       "name": "robertiacobus",
       "github": "https://github.com/robertiacobus",
-      "avatar": "https://avatars.githubusercontent.com/u/62239121?v=4",
+      "avatar": "https://github.com/robertiacobus.png?size=160",
       "initials": "R",
       "unresolved": false,
       "commits": 1,
